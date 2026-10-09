@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VuotoPerfetto - Buste e Rotoli per il Sottovuoto</title>
+  <meta name="description" content="Soluzioni professionali per la conservazione sottovuoto: buste e rotoli liscio e goffrato di altissima qualità.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pattern-bg">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="VuotoPerfetto Home">
+        <div class="logo-text">VuotoPerfetto</div>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="goffrato.html" class="nav-link">Goffrato</a></li>
+          <li><a href="liscio.html" class="nav-link">Liscio</a></li>
+          <li><a href="qualita.html" class="nav-link">Qualità</a></li>
+          <li><a href="contatti.html" class="nav-link">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO SLIDER SECTION (A TUTTA LARGHEZZA) -->
+    <section class="hero-slider-section">
+      <div class="slider-container" id="heroSlider">
+        
+        <!-- Slide 1: Goffrato -->
+        <div class="slide active">
+          <picture>
+            <source srcset="assets/slider-1-goffrato.avif" type="image/avif">
+            <svg class="slide-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <pattern id="embossed" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <circle cx="5" cy="5" r="2.5" fill="#0284c7" opacity="0.25"/>
+                  <circle cx="15" cy="15" r="2.5" fill="#ffffff" opacity="0.15"/>
+                </pattern>
+                <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#18181b"/>
+                  <stop offset="100%" stop-color="#27272a"/>
+                </linearGradient>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#bg1)"/>
+              <rect width="100%" height="100%" fill="url(#embossed)"/>
+            </svg>
+          </picture>
+          <div class="slide-overlay">
+            <span class="slide-badge">Buste e Rotoli Goffrati</span>
+            <h1 class="slide-title">Trama Micro-Goffrata per un'Aspirazione Perfetta</h1>
+            <p class="slide-desc">Incanalamento costante dell'aria per garantire la massima estrazione e la conservazione ottimale dei cibi.</p>
+            <div>
+              <a href="goffrato.html" class="btn btn-primary">Scopri il Goffrato &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: Liscio -->
+        <div class="slide">
+          <picture>
+            <source srcset="assets/slider-2-liscio.avif" type="image/avif">
+            <svg class="slide-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#27272a"/>
+                  <stop offset="100%" stop-color="#18181b"/>
+                </linearGradient>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#bg2)"/>
+              <circle cx="70%" cy="50%" r="220" fill="#0284c7" opacity="0.18"/>
+            </svg>
+          </picture>
+          <div class="slide-overlay">
+            <span class="slide-badge">Buste Lisce Professionali</span>
+            <h2 class="slide-title">Trasparenza Cristallina e Barriera Elevata</h2>
+            <p class="slide-desc">Spessore e resistenza ideali per la conservazione prolungata e la cottura a bassa temperatura (Sous-Vide).</p>
+            <div>
+              <a href="liscio.html" class="btn btn-primary">Esplora la Gamma Liscia &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: Protezione -->
+        <div class="slide">
+          <picture>
+            <source srcset="assets/slider-3-freschezza.avif" type="image/avif">
+            <svg class="slide-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100%" height="100%" fill="#18181b"/>
+              <circle cx="30%" cy="40%" r="180" fill="#0284c7" opacity="0.15"/>
+            </svg>
+          </picture>
+          <div class="slide-overlay">
+            <span class="slide-badge">Protezione Alimentare</span>
+            <h2 class="slide-title">Fino a 5 Volte più a Lungo la Freschezza</h2>
+            <p class="slide-desc">Protezione totale contro l'ossidazione, i bruciori da congelatore e gli odori indesiderati.</p>
+            <div>
+              <a href="qualita.html" class="btn btn-primary">Standard di Qualità &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4: Sicurezza & Sigillature -->
+        <div class="slide">
+          <picture>
+            <source srcset="assets/slider-4-dettaglio.avif" type="image/avif">
+            <svg class="slide-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100%" height="100%" fill="#27272a"/>
+            </svg>
+          </picture>
+          <div class="slide-overlay">
+            <span class="slide-badge">Resistenza Termica e Saldature</span>
+            <h2 class="slide-title">Saldature Extra Tenuta & Senza BPA</h2>
+            <p class="slide-desc">Polimeri multilayer certificati per il contatto alimentare diretto e la massima sicurezza chimica.</p>
+            <div>
+              <a href="qualita.html" class="btn btn-primary">Certificazioni Food-Grade &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controlli Slider -->
+        <button class="slider-btn prev-btn" onclick="moveSlide(-1)" aria-label="Precedente">&#10094;</button>
+        <button class="slider-btn next-btn" onclick="moveSlide(1)" aria-label="Successivo">&#10095;</button>
+
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+    </section>
+
+    <!-- SEZIONE OVERLAPPING BLOCKS -->
+    <section class="block-section">
+      <div class="container">
+        <div class="block-overlap-grid">
+          
+          <div class="glass-card overlap-left">
+            <span class="section-subtitle">La Tecnologia del Vuoto</span>
+            <h2 style="font-size: 32px; color: var(--text-dark); margin: 10px 0 20px 0;">Progettati per la Massima Protezione Alimentare</h2>
+            <p style="margin-bottom: 24px; color: var(--text-muted);">I sacchetti e rotoli <strong>VuotoPerfetto</strong> combinano materiali ad alta barriera per garantire l'eliminazione completa dell'aria e preservare le proprietà organolettiche degli alimenti.</p>
+            <a href="goffrato.html" class="btn btn-primary">Vedi linea Goffrata</a>
+          </div>
+
+          <div class="block-media">
+            <picture>
+              <source srcset="assets/block-detail.avif" type="image/avif">
+              <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="#f4f4f5"/>
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#18181b" font-weight="700">Dettaglio Struttura Multistrato</text>
+              </svg>
+            </picture>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- GRIGLIA CARATTERISTICHE -->
+    <section class="block-section">
+      <div class="container">
+        <div style="text-align: center; max-width: 600px; margin: 0 auto 40px auto;">
+          <span class="section-subtitle">Punti di Forza</span>
+          <h2 style="font-size: 30px; color: var(--text-dark);">Perché scegliere VuotoPerfetto</h2>
+          <p style="color: var(--text-muted);">Qualità dei materiali e ricerca tecnologica al servizio della conservazione.</p>
+        </div>
+
+        <div class="cards-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3 style="margin-bottom: 10px; color: var(--text-dark);">100% BPA Free</h3>
+            <p style="color: var(--text-muted); font-size: 14px;">Materiali atossici adatti al contatto alimentare prolungato senza rilascio di sostanze nocive.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">❄️</div>
+            <h3 style="margin-bottom: 10px; color: var(--text-dark);">Resistenti al Freddo</h3>
+            <p style="color: var(--text-muted); font-size: 14px;">Inalterabili anche alle basse temperature dei congelatori, evitando bruciature da freddo.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🔥</div>
+            <h3 style="margin-bottom: 10px; color: var(--text-dark);">Cottura Sous-Vide</h3>
+            <p style="color: var(--text-muted); font-size: 14px;">Idonei per la cottura a bassa temperatura in acqua fino a 100°C.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER ANTRACITE -->
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <a href="privacy.html" class="footer-link">Privacy</a>
+        <a href="termini.html" class="footer-link">Termini d'uso</a>
+        <a href="condizioni.html" class="footer-link">Condizioni di vendita</a>
+        <a href="etichetta-ambientale.html" class="footer-link">Etichetta ambientale</a>
+      </nav>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-legal">
+        <strong>Vuoto Perfetto™</strong> concesso in licenza a: <strong>ELCA S.r.l.</strong> - Via Tiburtina 144 65128 – PESCARA (PE) P.IVA e C.F.: 00907300685
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    function toggleMenu() {
+      document.getElementById('navMenu').classList.toggle('open');
+    }
+
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const dotsContainer = document.getElementById('sliderDots');
+
+    slides.forEach((_, index) => {
+      const dot = document.createElement('div');
+      dot.classList.add('dot');
+      if (index === 0) dot.classList.add('active');
+      dot.addEventListener('click', () => goToSlide(index));
+      dotsContainer.appendChild(dot);
+    });
+
+    const dots = document.querySelectorAll('.dot');
+
+    function showSlide(index) {
+      slides.forEach(slide => slide.classList.remove('active'));
+      dots.forEach(dot => dot.classList.remove('active'));
+
+      if (index >= slides.length) currentSlide = 0;
+      else if (index < 0) currentSlide = slides.length - 1;
+      else currentSlide = index;
+
+      slides[currentSlide].classList.add('active');
+      dots[currentSlide].classList.add('active');
+    }
+
+    function moveSlide(step) {
+      showSlide(currentSlide + step);
+    }
+
+    function goToSlide(index) {
+      showSlide(index);
+    }
+
+    let autoSlide = setInterval(() => moveSlide(1), 5000);
+
+    const sliderBox = document.getElementById('heroSlider');
+    sliderBox.addEventListener('mouseenter', () => clearInterval(autoSlide));
+    sliderBox.addEventListener('mouseleave', () => {
+      autoSlide = setInterval(() => moveSlide(1), 5000);
+    });
+  </script>
+</body>
+</html>

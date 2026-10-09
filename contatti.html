@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Contatti – NomeMarchio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* Stili specifici form */
+        form {
+            max-width: 600px;
+            margin: 30px auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+
+        label span {
+            color: #c00;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+
+        input:invalid, textarea:invalid {
+            border-color: #c00;
+        }
+
+        .error {
+            color: #c00;
+            margin-top: 15px;
+            display: none;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #0f172a;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .required-note {
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <h1 class="logo">NomeMarchio</h1>
+    </div>
+</header>
+
+<main class="container">
+    <h2>Contattaci</h2>
+
+    <form id="contactForm" novalidate>
+        <label>Nome <span>*</span>
+            <input type="text" name="nome" required>
+        </label>
+
+        <label>Cognome <span>*</span>
+            <input type="text" name="cognome" required>
+        </label>
+
+        <label>Nome azienda <span>*</span>
+            <input type="text" name="azienda" required>
+        </label>
+
+        <label>Email <span>*</span>
+            <input type="email" name="email" required>
+        </label>
+
+        <label>Telefono <span>*</span>
+            <input type="tel" name="telefono" required>
+        </label>
+
+        <label>Messaggio <span>*</span>
+            <textarea name="messaggio" rows="5" required></textarea>
+        </label>
+
+        <div class="error" id="formError">
+            Per favore compila tutti i campi obbligatori.
+        </div>
+
+        <button type="submit">Invia</button>
+
+        <div class="required-note">
+            <span>*</span> I campi contrassegnati con * sono obbligatori
+        </div>
+    </form>
+</main>
+
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+        const form = e.target;
+        const errorBox = document.getElementById("formError");
+
+        if (!form.checkValidity()) {
+            e.preventDefault();
+            errorBox.style.display = "block";
+        } else {
+            errorBox.style.display = "none";
+            // Qui potrai collegare l’invio reale (backend / email)
+        }
+    });
+</script>
+
+</body>
+</html>
