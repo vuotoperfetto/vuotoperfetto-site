@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: vuotoperfetto/vuotoperfetto-site
+  branch: main
+
+content:
+  - name: homepage
+    label: "Homepage"
+    files:
+      - path: index.html
+        label: "Gestione Contenuti Home"
+        fields:
+          - name: title
+            label: "Titolo Pagina (SEO)"
+            type: string
+          - name: slider_title_1
+            label: "Titolo Slide 1"
+            type: string
+          - name: slider_desc_1
+            label: "Descrizione Slide 1"
+            type: text
+
+  - name: goffrato
+    label: "Linea Goffrata"
+    files:
+      - path: goffrato.html
+        label: "Gestione Pagina Goffrato"
+        fields:
+          - name: page_title
+            label: "Titolo Pagina"
+            type: string
