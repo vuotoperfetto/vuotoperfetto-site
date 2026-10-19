@@ -4,20 +4,34 @@ description: "Sacchetti e rotoli sottovuoto goffrati per alimenti: trama a rombi
   per la massima aspirazione, conservazione prolungata e sicurezza alimentare.
   Scopri come usarli."
 ---
-<p>I <strong>sacchetti sottovuoto goffrati</strong> sono la soluzione più diffusa e affidabile per la conservazione professionale e domestica degli alimenti. La loro caratteristica distintiva è la superficie esterna lavorata con una trama a rombi, progettata per garantire un'estrazione dell'aria rapida, completa e uniforme durante la fase di aspirazione. Grazie a questa struttura, il vuoto si crea in modo efficace anche con macchine ad aspirazione esterna, senza rischi di sacche d'aria residue.</p>
+I **sacchetti sottovuoto goffrati** **VuotoPerfetto** sono la soluzione affidabile per la conservazione professionale e domestica degli alimenti. 
 
-<h2>Che cosa sono i sacchetti goffrati</h2>
+La loro caratteristica distintiva è la superficie di un lato interno della busta o del rotolo lavorata con una trama a rombi, progettata per garantire un'estrazione dell'aria rapida, completa e uniforme durante la fase di aspirazione. 
 
-<p>La goffratura è un rilievo a rombi impresso sul lato esterno della busta, realizzato in fase di produzione. Questo disegno crea dei piccoli canali attraverso i quali l'aria scorre liberamente verso l'imboccatura del sacchetto, permettendo alla macchina per il sottovuoto di aspirarla tutta in pochi secondi. Senza la goffratura, le due pareti del sacchetto aderirebbero tra loro e impedirebbero la fuoriuscita dell'aria. Per questo le buste goffrate sono indispensabili per le macchine a campana esterna, mentre le buste lisce funzionano solo con macchine a campana interna.</p>
+Grazie a questa struttura, il vuoto si crea in modo efficace anche con macchine ad aspirazione esterna economiche, senza rischi di sacche d'aria residue.
 
-<h2>A cosa servono</h2>
 
-<p>I <strong>sacchetti sottovuoto goffrati per alimenti</strong> servono a eliminare l'ossigeno dall'imballaggio, rallentando in modo significativo i processi di degradazione del cibo. Questo si traduce in una <strong>conservazione prolungata</strong> dei prodotti: la carne fresca può resistere fino a cinque volte più a lungo rispetto alla conservazione in frigorifero tradizionale, i formaggi mantengono aroma e consistenza, le verdure conservano colore e proprietà nutrizionali. Sono ideali anche per il congelamento, perché evitano le bruciature da freddo e la formazione di cristalli di ghiaccio. In ambito professionale vengono utilizzati in ristorazione, macellerie, pescherie e laboratori alimentari per il confezionamento sottovuoto di porzioni pronte.</p>
 
-<h2>Come si utilizzano</h2>
+## Che cosa sono i sacchetti goffrati
 
-<p>L'utilizzo è semplice e richiede pochi passaggi. Innanzitutto inserisci l'alimento nel sacchetto, lasciando almeno cinque centimetri di margine libero dal bordo superiore. Distribuisci il contenuto in modo uniforme ed evita che liquidi o parti appuntite entrino in contatto con la zona di saldatura. Apri la bocca del sacchetto, inseriscila nell'apposito vano della macchina per il sottovuoto e avvia il ciclo: la macchina aspirerà l'aria attraverso i canali della goffratura e sigillerà il bordo con una saldatura a caldo. Al termine, verifica che la saldatura sia continua e che il sacchetto aderisca all'alimento. Per alimenti morbidi o umidi, utilizza la funzione "liquidi" se disponibile, oppure congela brevemente il prodotto prima di confezionarlo.</p>
+La goffratura è un rilievo a rombi impresso sul lato della busta, realizzato in fase di produzione con un processo termico che non aggiunge nè toglie materiale. 
 
-<h2>Formati disponibili</h2>
+Questo disegno crea dei piccoli canali attraverso i quali l'aria scorre liberamente verso l'imboccatura del sacchetto, permettendo alla macchina per il sottovuoto di aspirarla tutta in pochi secondi. 
 
-<p>I nostri <strong>sacchetti goffrati</strong> sono disponibili in buste pretagliate di diverse dimensioni, pronte all'uso, oppure in rotoli da tagliare su misura in base alle esigenze specifiche. Tutti i formati sono realizzati in film multistrato con spessore di 105 micron, composto da poliammide (PA) all'esterno per la resistenza meccanica e polietilene (PE) all'interno per la sigillatura alimentare. Il materiale è idoneo al contatto con gli alimenti e adatto sia alla conservazione in frigorifero sia al congelamento.</p>
+Senza la goffratura, le due pareti del sacchetto aderirebbero tra loro e impedirebbero la fuoriuscita dell'aria. Ciò renderebbe il sacchetto sottovuoto inutilizzabile con le macchine uso domestico (dette macchine sottovuoto ad aspirazione esterna).
+
+**Per questo le buste goffrate sono indispensabili per le sottovuoto domestiche**, mentre le buste lisce funzionano solo con macchine a campana interna.
+
+
+
+## A cosa servono
+
+I **sacchetti sottovuoto goffrati per alimenti** servono a eliminare l'ossigeno dall'imballaggio, rallentando in modo significativo i processi di degradazione del cibo. Questo si traduce in una **conservazione prolungata** dei prodotti: la carne fresca può resistere fino a cinque volte più a lungo rispetto alla conservazione in frigorifero tradizionale, i formaggi mantengono aroma e consistenza, le verdure conservano colore e proprietà nutrizionali. Sono ideali anche per il congelamento, perché evitano le bruciature da freddo e la formazione di cristalli di ghiaccio. In ambito professionale vengono utilizzati in ristorazione, macellerie, pescherie e laboratori alimentari per il confezionamento sottovuoto di porzioni pronte.
+
+## Come si utilizzano
+
+L'utilizzo è semplice e richiede pochi passaggi. Innanzitutto inserisci l'alimento nel sacchetto, lasciando almeno cinque centimetri di margine libero dal bordo superiore. Distribuisci il contenuto in modo uniforme ed evita che liquidi o parti appuntite entrino in contatto con la zona di saldatura. Apri la bocca del sacchetto, inseriscila nell'apposito vano della macchina per il sottovuoto e avvia il ciclo: la macchina aspirerà l'aria attraverso i canali della goffratura e sigillerà il bordo con una saldatura a caldo. Al termine, verifica che la saldatura sia continua e che il sacchetto aderisca all'alimento. Per alimenti morbidi o umidi, utilizza la funzione "liquidi" se disponibile, oppure congela brevemente il prodotto prima di confezionarlo.
+
+## Formati disponibili
+
+I nostri **sacchetti goffrati** sono disponibili in buste pretagliate di diverse dimensioni, pronte all'uso, oppure in rotoli da tagliare su misura in base alle esigenze specifiche. Tutti i formati sono realizzati in film multistrato con spessore di 105 micron, composto da poliammide (PA) all'esterno per la resistenza meccanica e polietilene (PE) all'interno per la sigillatura alimentare. Il materiale è idoneo al contatto con gli alimenti e adatto sia alla conservazione in frigorifero sia al congelamento.
