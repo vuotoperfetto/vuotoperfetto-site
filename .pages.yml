@@ -1,0 +1,27 @@
+media:
+  input: src/materiale/img
+  output: /materiale/img
+
+content:
+  - name: pagine
+    label: "Pagine"
+    type: collection
+    path: src
+    format: yaml-frontmatter
+    extension: md
+    filename: "{fields.title}.md"
+    create: true
+    delete: false
+    fields:
+      - name: title
+        label: "Titolo"
+        type: string
+        required: true
+      - name: description
+        label: "Descrizione (meta SEO)"
+        type: string
+      - name: body
+        label: "Contenuto"
+        type: rich-text
+        options:
+          allow: [html]

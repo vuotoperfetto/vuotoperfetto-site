@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} - VuotoPerfetto</title>
+  <meta name="description" content="{{ description or '' }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="pattern-bg">
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand-logo" aria-label="VuotoPerfetto Home">
+        <div class="logo-text">VuotoPerfetto</div>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Menu" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="/goffrato/" class="nav-link{% if page.url == '/goffrato/' %} active{% endif %}">Goffrato</a></li>
+          <li><a href="/liscio/" class="nav-link{% if page.url == '/liscio/' %} active{% endif %}">Liscio</a></li>
+          <li><a href="/qualita/" class="nav-link{% if page.url == '/qualita/' %} active{% endif %}">Qualità</a></li>
+          <li><a href="/contatti/" class="nav-link{% if page.url == '/contatti/' %} active{% endif %}">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 50px; padding-bottom: 60px;">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <a href="/privacy/" class="footer-link">Privacy</a>
+        <a href="/termini/" class="footer-link">Termini d'uso</a>
+        <a href="/condizioni/" class="footer-link">Condizioni di vendita</a>
+        <a href="/etichetta-ambientale/" class="footer-link">Etichetta ambientale</a>
+      </nav>
+      <div class="footer-divider"></div>
+      <div class="footer-legal">
+        <strong>Vuoto Perfetto™</strong> concesso in licenza a: <strong>ELCA S.r.l.</strong> - Via Tiburtina 144 65128 – PESCARA (PE) P.IVA e C.F.: 00907300685
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navMenu').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
