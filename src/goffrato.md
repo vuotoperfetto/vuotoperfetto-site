@@ -84,4 +84,35 @@ Gli alimenti umidi o troppo morbidi non sono adatti per la conservazione sottovu
 
 ## **Formati disponibili**
 
-I nostri **sacchetti goffrati** sono disponibili in buste pretagliate di diverse dimensioni, pronte all'uso, oppure in rotoli da tagliare su misura in base alle esigenze specifiche. Tutti i formati sono realizzati in film multistrato con spessore di 105 micron, composto da poliammide (PA) all'esterno per la resistenza meccanica e polietilene (PE) all'interno per la sigillatura alimentare. Il materiale è idoneo al contatto con gli alimenti e adatto sia alla conservazione in frigorifero sia al congelamento.
+I **sacchetti sottovuoto goffrati** della gamma Vuoto Perfetto sono disponibili in buste pretagliate di diverse dimensioni, pronte all'uso, oppure in rotoli da tagliare su misura in base alle esigenze specifiche. 
+
+
+
+Tutti i formati sono realizzati in film multistrato con spessore di 105 micron, composto da poliammide (PA) all'esterno per la resistenza meccanica e polietilene (PE) all'interno per la sigillatura alimentare. 
+
+
+
+Il materiale è idoneo al contatto con gli alimenti e adatto sia alla conservazione in frigorifero sia al congelamento.
+
+
+
+I rotoli sono disponibili nelle seguenti misure: 20x600 cm e 30x600 cm
+
+
+
+I sacchetti sottovuoto sono disponibili in pacchetti da 25 pezzi con le seguenti misure: 15x25 cm, 20x30 cm, 25x35 cm, 30x40 cm.
+
+
+
+Le buste sottovuoto, inoltre, possono essere acquistate in **pacchetti da 50 pezzi** con le seguenti misure: 
+
+- 12x20 cm;
+- 15x25 cm; 
+- 15x30 cm;
+- 15x40 cm;
+- 20x30 cm;
+- 20x35 cm;
+- 25x30 cm;
+- 25x35 cm;
+- 30x40 cm.
+
