@@ -50,7 +50,7 @@ Questo si traduce in una **conservazione prolungata** dei prodotti: la carne fre
 
 
 
-Sono ideali anche per il congelamento, perché evitano le bruciature da freddo e la formazione di cristalli di ghiaccio. 
+**Sono ideali anche per il congelamento**, perché evitano le bruciature da freddo e la formazione di cristalli di ghiaccio. 
 
 
 
@@ -64,7 +64,21 @@ Inoltre i sacchetti per sottovuoto, proteggendo accuratamente gli alimenti, **so
 
 ## **Come si utilizzano**
 
-L'utilizzo è semplice e richiede pochi passaggi. Innanzitutto inserisci l'alimento nel sacchetto, lasciando almeno cinque centimetri di margine libero dal bordo superiore. Distribuisci il contenuto in modo uniforme ed evita che liquidi o parti appuntite entrino in contatto con la zona di saldatura. Apri la bocca del sacchetto, inseriscila nell'apposito vano della macchina per il sottovuoto e avvia il ciclo: la macchina aspirerà l'aria attraverso i canali della goffratura e sigillerà il bordo con una saldatura a caldo. Al termine, verifica che la saldatura sia continua e che il sacchetto aderisca all'alimento. Per alimenti morbidi o umidi, utilizza la funzione "liquidi" se disponibile, oppure congela brevemente il prodotto prima di confezionarlo.
+L'utilizzo è semplice e richiede pochi passaggi, che riportiamo per semplicità di seguito:
+
+1. innanzitutto inserisci l'alimento nel sacchetto, lasciando almeno cinque centimetri di margine libero dal bordo superiore;
+2. distribuisci il contenuto in modo uniforme ed evita che liquidi o parti appuntite entrino in contatto con la zona di saldatura;
+3. evita di mettere sottovuoto prodotti sanguinolenti o umidi perchè il sacchetto si rovinerà e pure la macchina sottovuoto;
+4. inserisci la bocca del sacchetto nell'apposito vano (camera del vuoto, solitamente tra due guarnizioni nere) della macchina per il sottovuoto e avvia il ciclo;
+5. la macchina aspirerà l'aria attraverso i canali della goffratura e sigillerà il bordo con una saldatura a caldo
+
+
+
+**Al termine, verifica che la saldatura sia continua e che il sacchetto aderisca all'alimento**. 
+
+
+
+Gli alimenti umidi o troppo morbidi non sono adatti per la conservazione sottovuoto per uso domestico.
 
 
 
