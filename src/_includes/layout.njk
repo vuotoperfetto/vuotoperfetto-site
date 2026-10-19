@@ -31,8 +31,16 @@
   </header>
 
   <main class="container" style="padding-top: 50px; padding-bottom: 60px;">
+  {% if image %}
+    <div class="product-hero-image">
+      <img src="{{ image }}" alt="{{ title }}">
+    </div>
+  {% endif %}
+
+  <div class="product-content">
     {{ content | safe }}
-  </main>
+  </div>
+</main>
 
   <footer class="site-footer">
     <div class="container">
