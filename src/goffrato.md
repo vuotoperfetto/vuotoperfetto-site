@@ -16,8 +16,6 @@ Grazie a questa struttura, il vuoto si crea in modo efficace anche con macchine 
 
 
 
-&nbsp;
-
 ## **Che cosa sono i sacchetti goffrati**
 
 La goffratura è un rilievo a rombi impresso sul lato della busta, realizzato in fase di produzione con un **processo termico che non aggiunge nè toglie materiale**. 
@@ -37,8 +35,6 @@ Ciò renderebbe il sacchetto sottovuoto inutilizzabile con le macchine uso domes
 **Per questo le buste goffrate sono indispensabili per le sottovuoto domestiche**, mentre le buste lisce funzionano solo con macchine a campana interna.
 
 
-
-&nbsp;
 
 ## **A cosa servono i sacchetti sottovuoto goffrati?**
 
@@ -96,11 +92,19 @@ Il materiale è idoneo al contatto con gli alimenti e adatto sia alla conservazi
 
 
 
-I rotoli sono disponibili nelle seguenti misure: 20x600 cm e 30x600 cm
+I **rotoli sono disponibili in confezioni da 2 pezzi nelle seguenti misure**: 
+
+- 20x600 cm;
+- 30x600 cm.
 
 
 
-I sacchetti sottovuoto sono disponibili in pacchetti da 25 pezzi con le seguenti misure: 15x25 cm, 20x30 cm, 25x35 cm, 30x40 cm.
+I sacchetti sottovuoto sono disponibili in **pacchetti da 25 pezzi** con le seguenti misure: 
+
+- 15x25 cm;
+- 20x30 cm;
+- 25x35 cm;
+- 30x40 cm.
 
 
 
