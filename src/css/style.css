@@ -413,6 +413,78 @@ body {
 }
 
 /* ==========================================================================
+   CONTENUTO DELLE PAGINE (generato da Markdown)
+   ========================================================================== */
+
+.product-hero-image {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.product-hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  display: block;
+  margin: 0 auto;
+}
+
+.product-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-content h2 {
+  font-size: 26px;
+  color: var(--text-dark);
+  margin-top: 48px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--azure-light);
+}
+
+.product-content h3 {
+  font-size: 20px;
+  color: var(--text-dark);
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.product-content p {
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.product-content ul,
+.product-content ol {
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 18px;
+  padding-left: 24px;
+}
+
+.product-content li {
+  margin-bottom: 8px;
+}
+
+.product-content strong {
+  color: var(--text-dark);
+}
+
+.product-content a {
+  color: var(--azure);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: var(--transition);
+}
+
+.product-content a:hover {
+  color: var(--anthracite);
+}
+
+/* ==========================================================================
    FOOTER (Sfondo Grigio Antracite Scuro)
    ========================================================================== */
 .site-footer {
@@ -517,80 +589,13 @@ body {
   .overlap-left, .overlap-right {
     margin: 0;
   }
-}
 
-/* ==========================================================================
-   CONTENUTO DELLE PAGINE (generato da Markdown)
-   ========================================================================== */
-
-.product-hero-image {
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.product-hero-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-}
-
-.product-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.product-content h2 {
-  font-size: 26px;
-  color: var(--text-dark);
-  margin-top: 48px;
-  margin-bottom: 16px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--azure-light);
-}
-
-.product-content h3 {
-  font-size: 20px;
-  color: var(--text-dark);
-  margin-top: 32px;
-  margin-bottom: 12px;
-}
-
-.product-content p {
-  color: var(--text-muted);
-  line-height: 1.8;
-  margin-bottom: 18px;
-}
-
-.product-content ul,
-.product-content ol {
-  color: var(--text-muted);
-  line-height: 1.8;
-  margin-bottom: 18px;
-  padding-left: 24px;
-}
-
-.product-content li {
-  margin-bottom: 8px;
-}
-
-.product-content strong {
-  color: var(--text-dark);
-}
-
-.product-content a {
-  color: var(--azure);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  transition: var(--transition);
-}
-
-.product-content a:hover {
-  color: var(--anthracite);
-}
-
-@media (max-width: 902px) {
   .product-content {
     max-width: 100%;
+  }
+
+  .product-content h2 {
+    font-size: 22px;
+    margin-top: 36px;
   }
 }
