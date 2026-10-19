@@ -1,7 +1,13 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/materiale");
-  eleventyConfig.addPassthroughCopy("src/static");
+
+  // Copia src/static includendo i file e le cartelle che iniziano con un punto (.well-known)
+  eleventyConfig.addPassthroughCopy("src/static", {
+    copyOptions: {
+      dot: true
+    }
+  });
 
   return {
     dir: {
