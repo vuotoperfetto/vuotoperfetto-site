@@ -26,11 +26,23 @@ Senza la goffratura, le due pareti del sacchetto aderirebbero tra loro e impedir
 
 ## A cosa servono
 
-I **sacchetti sottovuoto goffrati per alimenti** servono a eliminare l'ossigeno dall'imballaggio, rallentando in modo significativo i processi di degradazione del cibo. Questo si traduce in una **conservazione prolungata** dei prodotti: la carne fresca può resistere fino a cinque volte più a lungo rispetto alla conservazione in frigorifero tradizionale, i formaggi mantengono aroma e consistenza, le verdure conservano colore e proprietà nutrizionali. Sono ideali anche per il congelamento, perché evitano le bruciature da freddo e la formazione di cristalli di ghiaccio. In ambito professionale vengono utilizzati in ristorazione, macellerie, pescherie e laboratori alimentari per il confezionamento sottovuoto di porzioni pronte.
+I **sacchetti sottovuoto goffrati per alimenti** servono a eliminare l'ossigeno e gli altri gas dall'imballaggio, rallentando in modo significativo i processi di degradazione del cibo. 
+
+Questo si traduce in una **conservazione prolungata** dei prodotti: la carne fresca può resistere fino a cinque volte più a lungo rispetto alla conservazione in frigorifero tradizionale, i formaggi mantengono aroma e consistenza, le verdure conservano colore e proprietà nutrizionali. 
+
+Sono ideali anche per il congelamento, perché evitano le bruciature da freddo e la formazione di cristalli di ghiaccio. 
+
+In ambito professionale vengono utilizzati in ristorazione, macellerie, pescherie e laboratori alimentari per il confezionamento sottovuoto di porzioni pronte.
+
+Inoltre i sacchetti per sottovuoto, proteggendo accuratamente gli alimenti, **sono particolarmente utili anche per il trasporto verso casa degli alimenti appena confezionati**.
+
+
 
 ## Come si utilizzano
 
-L'utilizzo è semplice e richiede pochi passaggi. Innanzitutto inserisci l'alimento nel sacchetto, lasciando almeno cinque centimetri di margine libero dal bordo superiore. Distribuisci il contenuto in modo uniforme ed evita che liquidi o parti appuntite entrino in contatto con la zona di saldatura. Apri la bocca del sacchetto, inseriscila nell'apposito vano della macchina per il sottovuoto e avvia il ciclo: la macchina aspirerà l'aria attraverso i canali della goffratura e sigillerà il bordo con una saldatura a caldo. Al termine, verifica che la saldatura sia continua e che il sacchetto aderisca all'alimento. Per alimenti morbidi o umidi, utilizza la funzione "liquidi" se disponibile, oppure congela brevemente il prodotto prima di confezionarlo.
+L'utilizzo è semplice e richiede pochi passaggi. 
+
+Innanzitutto inserisci l'alimento nel sacchetto, lasciando almeno cinque centimetri di margine libero dal bordo superiore. Distribuisci il contenuto in modo uniforme ed evita che liquidi o parti appuntite entrino in contatto con la zona di saldatura. Apri la bocca del sacchetto, inseriscila nell'apposito vano della macchina per il sottovuoto e avvia il ciclo: la macchina aspirerà l'aria attraverso i canali della goffratura e sigillerà il bordo con una saldatura a caldo. Al termine, verifica che la saldatura sia continua e che il sacchetto aderisca all'alimento. Per alimenti morbidi o umidi, utilizza la funzione "liquidi" se disponibile, oppure congela brevemente il prodotto prima di confezionarlo.
 
 ## Formati disponibili
 
