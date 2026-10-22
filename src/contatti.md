@@ -2,6 +2,7 @@
 layout: layout.njk
 title: Contatti
 description: Contatta ELCA S.r.l. per informazioni sui prodotti VuotoPerfetto.
+permalink: false
 ---
 
 <div style="margin-bottom: 40px; text-align: center;">
