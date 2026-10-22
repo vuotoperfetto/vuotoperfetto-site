@@ -1,30 +1,27 @@
 ---
-layout: layout.njk
 title: Liscio
-description: Buste e rotoli lisci per conservazione sottovuoto.
+description: Buste sacchetti lisci professionali sottovuoto
 ---
 
-<div style="margin-bottom: 40px; text-align: center;">
-  <span class="section-subtitle">Linea Liscia</span>
-  <h1 style="font-size: 38px; color: var(--text-dark); margin-top: 8px;">Buste e Rotoli Lisci</h1>
-  <p style="color: var(--text-muted); max-width: 600px; margin: 10px auto 0 auto;">Superficie liscia per applicazioni standard di conservazione sottovuoto.</p>
-</div>
 
-<div class="block-overlap-grid" style="margin-bottom: 60px;">
-  <div class="block-media">
-    <img src="/materiale/img/liscio.jpg" alt="Buste lisce">
-  </div>
+Le **buste sottovuoto lisce** rappresentano la scelta professionale per la conservazione a lungo termine degli alimenti. A differenza delle buste goffrate, la loro superficie uniforme e priva di rilievi le rende compatibili esclusivamente con le **macchine sottovuoto a campana**, ovvero i sistemi utilizzati in ristorazione, macellerie, pescherie e laboratori alimentari. Grazie allo spessore di 90 micron su entrambi i lati, offrono una barriera robusta e una sigillatura precisa, ideale per il confezionamento sottovuoto professionale.
 
-  <div class="glass-card overlap-right">
-    <span class="section-subtitle">Dettagli di Gamma</span>
-    <h2 style="font-size: 26px; color: var(--text-dark); margin: 8px 0 16px 0;">Caratteristiche Tecniche</h2>
-    <ul style="list-style: none; display: flex; flex-direction: column; gap: 14px; color: var(--text-dark);">
-      <li>🔹 <strong>Superficie:</strong> liscia e trasparente.</li>
-      <li>🔹 <strong>Struttura:</strong> multistrato per una barriera efficace contro l'umidità.</li>
-      <li>🔹 <strong>Formati disponibili:</strong> buste pretagliate o rotoli.</li>
-    </ul>
-    <div style="margin-top: 24px;">
-      <a href="/contatti/" class="btn btn-primary">Richiedi Informazioni &rarr;</a>
-    </div>
-  </div>
-</div>
+## Che cosa sono le buste sottovuoto lisce
+
+La superficie liscia, priva di goffratura, è la caratteristica distintiva di questi sacchetti. Senza la trama a rombi che caratterizza le buste per macchine ad aspirazione esterna, le buste lisce richiedono un ambiente in cui l'aria venga rimossa contemporaneamente dall'interno e dall'esterno del sacchetto. Le pareti, uniformi e trasparenti, garantiscono una visione perfetta del contenuto e una saldatura continua su tutta la larghezza del bordo. Il film multistrato da 90 micron per lato assicura resistenza meccanica e impermeabilità.
+
+## Come funzionano le macchine sottovuoto a campana
+
+Le **macchine sottovuoto a campana** funzionano in modo diverso rispetto ai sistemi domestici ad aspirazione esterna. L'intero sacchetto, con l'alimento all'interno, viene inserito in una camera chiusa, la campana. Quando si avvia il ciclo, la macchina estrae l'aria da tutta la campana, creando una depressione che coinvolge sia l'interno sia l'esterno del sacchetto. In assenza di differenza di pressione tra le due pareti, il sacchetto non si incolla a se stesso e l'aria fuoriesce naturalmente, senza bisogno di canali di aspirazione. Raggiunto il vuoto desiderato, la barra saldante chiude il sacchetto, e solo dopo l'aria viene reintrodotta nella campana. Questo sistema consente di confezionare anche alimenti liquidi o umidi, senza rischi di aspirazione del liquido nella pompa, ed è per questo che le macchine a campana sono lo standard nella ristorazione professionale.
+
+## A cosa servono le buste lisce
+
+Le **buste sottovuoto lisce** sono ideali per la conservazione professionale di carni, pesce, salumi, formaggi stagionati e piatti pronti. Lo spessore di 90 micron su entrambi i lati offre una resistenza superiore alle sollecitazioni meccaniche, protegge da abrasioni e perforazioni e mantiene l'integrità del vuoto anche in fase di trasporto e stoccaggio. Sono particolarmente indicate per il confezionamento di porzioni pronte in ristorazione, per la cottura sottovuoto (sous-vide) e per la conservazione a lungo termine in celle frigorifere o in abbattimento. Rispetto alle buste goffrate, offrono una superficie più uniforme che facilita l'etichettatura e la disposizione ordinata in cassetta.
+
+## Come si utilizzano
+
+Inserisci l'alimento nel sacchetto, distribuendolo in modo uniforme e lasciando libero il bordo superiore per la saldatura. Posiziona il sacchetto all'interno della campana, con la bocca appoggiata sulla barra saldante. Chiudi la campana e avvia il ciclo: la macchina creerà il vuoto, sigillerà il sacchetto e riporterà la pressione a livello ambiente. Al termine, estrai il sacchetto e verifica che la saldatura sia continua. Per alimenti liquidi, utilizza la funzione dedicata o congela brevemente il prodotto prima del confezionamento.
+
+## Formati disponibili
+
+Le nostre **buste lisce** sono disponibili in buste pretagliate di diverse dimensioni o in rotoli da tagliare su misura. Tutti i formati sono realizzati in film multistrato da 90 micron su entrambi i lati, idoneo al contatto con gli alimenti. Il materiale è adatto alla conservazione in frigorifero, al congelamento e alla cottura sottovuoto a bassa temperatura.
