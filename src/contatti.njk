@@ -1,0 +1,68 @@
+---
+layout: layout.njk
+title: Contatti
+description: "Contatta VuotoPerfetto per informazioni e preventivi."
+permalink: /contatti/
+---
+<main class="container" style="padding-top: 50px; padding-bottom: 60px;">
+  <div class="product-content" style="max-width: 640px;">
+    {{ content | safe }}
+
+    <form id="contact-form" class="contact-form" method="POST" action="/api/contact">
+      <!-- Honeypot: nascosto agli umani, visibile ai bot -->
+      <div style="position:absolute; left:-9999px;" aria-hidden="true">
+        <label for="website">Non compilare questo campo</label>
+        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required autocomplete="name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Messaggio</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+
+      <!-- Turnstile -->
+      <div class="cf-turnstile" data-sitekey="IL_TUO_SITE_KEY"></div>
+
+      <button type="submit" class="btn btn-primary">Invia messaggio</button>
+      <p id="form-status" style="margin-top: 16px; color: var(--text-muted);"></p>
+    </form>
+  </div>
+</main>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script>
+  const form = document.getElementById('contact-form');
+  const status = document.getElementById('form-status');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    status.textContent = 'Invio in corso…';
+    status.style.color = 'var(--text-muted)';
+
+    const formData = new FormData(form);
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      body: formData
+    });
+
+    const data = await res.json();
+    if (res.ok) {
+      status.textContent = 'Messaggio inviato. Ti risponderemo presto.';
+      status.style.color = 'green';
+      form.reset();
+    } else {
+      status.textContent = data.error || 'Si è verificato un errore. Riprova.';
+      status.style.color = 'red';
+    }
+  });
+</script>
