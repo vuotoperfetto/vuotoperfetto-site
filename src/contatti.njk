@@ -6,10 +6,12 @@ permalink: /contatti/
 ---
 <main class="container" style="padding-top: 50px; padding-bottom: 60px;">
   <div class="product-content" style="max-width: 640px;">
-    {{ content | safe }}
+
+    {% if intro %}
+      <div class="contact-intro">{{ intro | safe }}</div>
+    {% endif %}
 
     <form id="contact-form" class="contact-form" method="POST" action="/api/contact">
-      <!-- Honeypot: nascosto agli umani, visibile ai bot -->
       <div style="position:absolute; left:-9999px;" aria-hidden="true">
         <label for="website">Non compilare questo campo</label>
         <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
@@ -17,24 +19,23 @@ permalink: /contatti/
 
       <div class="form-group">
         <label for="name">Nome</label>
-        <input type="text" id="name" name="name" required autocomplete="name">
+        <input type="text" id="name" name="name" required autocomplete="name" placeholder="Il tuo nome">
       </div>
 
       <div class="form-group">
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" required autocomplete="email">
+        <input type="email" id="email" name="email" required autocomplete="email" placeholder="nome@esempio.it">
       </div>
 
       <div class="form-group">
         <label for="message">Messaggio</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
+        <textarea id="message" name="message" rows="6" required placeholder="Scrivi qui il tuo messaggio..."></textarea>
       </div>
 
-      <!-- Turnstile -->
-      <div class="cf-turnstile" data-sitekey="0x4AAAAAAFgcwnTI1R556F8l"></div>
+      <div class="cf-turnstile" data-sitekey="LA_TUA_SITE_KEY"></div>
 
       <button type="submit" class="btn btn-primary">Invia messaggio</button>
-      <p id="form-status" style="margin-top: 16px; color: var(--text-muted);"></p>
+      <p id="form-status" class="form-status"></p>
     </form>
   </div>
 </main>
@@ -47,22 +48,19 @@ permalink: /contatti/
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     status.textContent = 'Invio in corso…';
-    status.style.color = 'var(--text-muted)';
+    status.className = 'form-status';
 
     const formData = new FormData(form);
-    const res = await fetch('/api/contact', {
-      method: 'POST',
-      body: formData
-    });
-
+    const res = await fetch('/api/contact', { method: 'POST', body: formData });
     const data = await res.json();
+
     if (res.ok) {
       status.textContent = 'Messaggio inviato. Ti risponderemo presto.';
-      status.style.color = 'green';
+      status.className = 'form-status form-status-success';
       form.reset();
     } else {
       status.textContent = data.error || 'Si è verificato un errore. Riprova.';
-      status.style.color = 'red';
+      status.className = 'form-status form-status-error';
     }
   });
 </script>
