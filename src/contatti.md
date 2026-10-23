@@ -2,7 +2,7 @@
 title: Contatti
 description: "Contatta VuotoPerfetto per informazioni sui prodotti sottovuoto, preventivi e richieste commerciali."
 permalink: false
-intro: "Per informazioni sui prodotti, preventivi o richieste specifiche, compila il modulo sottostante. Ti risponderemo il prima possibile."
+intro: "Per informazioni sui prodotti, preventivi o richieste specifiche, compila il modulo sottostante. Ti risponderemo il prima possibile. Grazie"
 ---
 
 <div style="margin-bottom: 40px; text-align: center;">
