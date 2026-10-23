@@ -12,25 +12,58 @@ permalink: /contatti/
     {% endif %}
 
     <form id="contact-form" class="contact-form" method="POST" action="/api/contact">
-      <div style="position:absolute; left:-9999px;" aria-hidden="true">
-        <label for="website">Non compilare questo campo</label>
-        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+      <input type="hidden" name="website" value="">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nome">Nome *</label>
+          <input type="text" id="nome" name="nome" required placeholder="Mario">
+        </div>
+        <div class="form-group">
+          <label for="cognome">Cognome *</label>
+          <input type="text" id="cognome" name="cognome" required placeholder="Rossi">
+        </div>
       </div>
 
       <div class="form-group">
-        <label for="name">Nome</label>
-        <input type="text" id="name" name="name" required autocomplete="name" placeholder="Il tuo nome">
+        <label for="azienda">Azienda *</label>
+        <input type="text" id="azienda" name="azienda" required placeholder="Nome azienda">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="partita_iva">Partita IVA *</label>
+          <input type="text" id="partita_iva" name="partita_iva" required placeholder="IT12345678901">
+        </div>
+        <div class="form-group">
+          <label for="localita">Località *</label>
+          <input type="text" id="localita" name="localita" required placeholder="Città (Provincia)">
+        </div>
       </div>
 
       <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required autocomplete="email" placeholder="nome@esempio.it">
+        <label for="email">Indirizzo email *</label>
+        <input type="email" id="email" name="email" required placeholder="nome@azienda.it">
       </div>
 
       <div class="form-group">
-        <label for="message">Messaggio</label>
-        <textarea id="message" name="message" rows="6" required placeholder="Scrivi qui il tuo messaggio..."></textarea>
+        <label for="telefono">Telefono *</label>
+        <input type="tel" id="telefono" name="telefono" required placeholder="+39 123 456 7890">
       </div>
+
+      <div class="form-group">
+        <label for="messaggio">Messaggio *</label>
+        <textarea id="messaggio" name="messaggio" rows="6" required placeholder="Scrivi qui la tua richiesta..."></textarea>
+      </div>
+
+      <div class="form-group form-group-checkbox">
+        <label class="checkbox-label">
+          <input type="checkbox" id="privacy" name="privacy" required>
+          <span>Dichiaro di avere ricevuto l'informativa sul trattamento dei dati personali e di accettarla *</span>
+        </label>
+      </div>
+
+      <div id="privacy-error" class="form-status form-status-error" style="display: none;"></div>
 
       <div class="cf-turnstile" data-sitekey="LA_TUA_SITE_KEY"></div>
 
@@ -44,9 +77,21 @@ permalink: /contatti/
 <script>
   const form = document.getElementById('contact-form');
   const status = document.getElementById('form-status');
+  const privacyCheckbox = document.getElementById('privacy');
+  const privacyError = document.getElementById('privacy-error');
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
+
+    privacyError.style.display = 'none';
+
+    if (!privacyCheckbox.checked) {
+      privacyError.textContent = 'Per inviare devi prima confermare di avere preso visione dell\'informativa sul trattamento dei dati personali.';
+      privacyError.style.display = 'block';
+      privacyCheckbox.focus();
+      return;
+    }
+
     status.textContent = 'Invio in corso…';
     status.className = 'form-status';
 
@@ -58,6 +103,7 @@ permalink: /contatti/
       status.textContent = 'Messaggio inviato. Ti risponderemo presto.';
       status.className = 'form-status form-status-success';
       form.reset();
+      privacyError.style.display = 'none';
     } else {
       status.textContent = data.error || 'Si è verificato un errore. Riprova.';
       status.className = 'form-status form-status-error';
