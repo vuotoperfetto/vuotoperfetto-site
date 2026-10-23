@@ -1,0 +1,6 @@
+name = "vuotoperfetto-site"
+compatibility_date = "2026-10-23"
+
+[[send_email]]
+name = "SEB"
+destination_address = "vuotoperfetto@gmail.com"
