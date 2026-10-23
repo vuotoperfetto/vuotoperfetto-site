@@ -515,6 +515,107 @@ body {
 }
 
 /* ==========================================================================
+   FORM CONTATTI
+   ========================================================================== */
+
+.contact-intro {
+  margin-bottom: 40px;
+  font-size: 17px;
+  color: var(--text-muted);
+  line-height: 1.75;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  box-shadow: var(--shadow-lg);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 16px;
+  font-family: inherit;
+  color: var(--text-dark);
+  background: var(--white);
+  transition: var(--transition);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #a1a1aa;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--azure);
+  box-shadow: 0 0 0 3px var(--azure-light);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 140px;
+  line-height: 1.6;
+}
+
+.contact-form .btn {
+  align-self: flex-start;
+  padding: 16px 36px;
+  font-size: 16px;
+}
+
+.form-status {
+  font-size: 15px;
+  color: var(--text-muted);
+  margin: 0;
+  min-height: 22px;
+}
+
+.form-status-success {
+  color: #15803d;
+  font-weight: 600;
+}
+
+.form-status-error {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+@media (max-width: 902px) {
+  .contact-form {
+    padding: 24px;
+  }
+
+  .contact-form .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ==========================================================================
    FOOTER (Sfondo Grigio Antracite Scuro)
    ========================================================================== */
 .site-footer {
