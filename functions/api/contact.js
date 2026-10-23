@@ -2,7 +2,6 @@ export async function onRequestPost(context) {
   const { request, env } = context;
   const formData = await request.formData();
 
-  // 1. Honeypot
   const honeypot = formData.get('website');
   if (honeypot) {
     return new Response(JSON.stringify({ error: 'Richiesta non valida.' }), {
@@ -11,7 +10,6 @@ export async function onRequestPost(context) {
     });
   }
 
-  // 2. Turnstile
   const token = formData.get('cf-turnstile-response');
   if (!token) {
     return new Response(JSON.stringify({ error: 'Verifica di sicurezza mancante.' }), {
@@ -35,57 +33,57 @@ export async function onRequestPost(context) {
     });
   }
 
-  // 3. Rate limit per IP (Cloudflare KV)
-  const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
-  const kvKey = `rate:${ip}`;
-  const now = Date.now();
-  const windowMs = 10 * 60 * 1000; // 10 minuti
-  const maxRequests = 5;
-
-  let record = await env.RATE_LIMIT.get(kvKey, { type: 'json' });
-  if (!record || now - record.first > windowMs) {
-    record = { first: now, count: 1 };
-  } else {
-    record.count++;
-  }
-  await env.RATE_LIMIT.put(kvKey, JSON.stringify(record), { expirationTtl: 600 });
-
-  if (record.count > maxRequests) {
-    return new Response(JSON.stringify({ error: 'Troppe richieste. Riprova più tardi.' }), {
-      status: 429,
-      headers: { 'Content-Type': 'application/json' }
-    });
+  const required = ['nome', 'cognome', 'azienda', 'partita_iva', 'localita', 'email', 'telefono', 'messaggio'];
+  for (const field of required) {
+    if (!formData.get(field)?.toString().trim()) {
+      return new Response(JSON.stringify({ error: `Il campo ${field} è obbligatorio.` }), {
+        status: 400,
+        headers: { 'Content-Type': 'application/json' }
+      });
+    }
   }
 
-  // 4. Dati
-  const name = formData.get('name')?.toString().trim();
-  const email = formData.get('email')?.toString().trim();
-  const message = formData.get('message')?.toString().trim();
-
-  if (!name || !email || !message) {
-    return new Response(JSON.stringify({ error: 'Compila tutti i campi.' }), {
+  const privacy = formData.get('privacy');
+  if (!privacy) {
+    return new Response(JSON.stringify({ error: 'Devi accettare l\'informativa sulla privacy.' }), {
       status: 400,
       headers: { 'Content-Type': 'application/json' }
     });
   }
 
-  // 5. Invio email (Resend)
-  const resendRes = await fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${env.RESEND_API_KEY}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      from: 'Modulo Contatti <noreply@tuodominio.it>',
-      to: 'info@tuodominio.it',
-      subject: `Nuovo messaggio da ${name}`,
-      text: `Nome: ${name}\nEmail: ${email}\n\n${message}`
-    })
-  });
+  const nome = formData.get('nome').toString().trim();
+  const cognome = formData.get('cognome').toString().trim();
+  const azienda = formData.get('azienda').toString().trim();
+  const partitaIva = formData.get('partita_iva').toString().trim();
+  const localita = formData.get('localita').toString().trim();
+  const email = formData.get('email').toString().trim();
+  const telefono = formData.get('telefono').toString().trim();
+  const messaggio = formData.get('messaggio').toString().trim();
 
-  if (!resendRes.ok) {
-    return new Response(JSON.stringify({ error: 'Errore nell’invio. Riprova.' }), {
+  const emailText = `Nuovo messaggio dal modulo contatti VuotoPerfetto
+
+Nome: ${nome}
+Cognome: ${cognome}
+Azienda: ${azienda}
+Partita IVA: ${partitaIva}
+Località: ${localita}
+Email: ${email}
+Telefono: ${telefono}
+
+Messaggio:
+${messaggio}
+`;
+
+  try {
+    await env.SEB.send({
+      to: 'vuotoperfetto@gmail.com',
+      from: 'Modulo Contatti <no-reply@vuotoperfetto-site.pages.dev>',
+      replyTo: email,
+      subject: `Nuovo contatto da ${nome} ${cognome} (${azienda})`,
+      text: emailText
+    });
+  } catch (err) {
+    return new Response(JSON.stringify({ error: 'Errore nell\'invio. Riprova più tardi.' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' }
     });
