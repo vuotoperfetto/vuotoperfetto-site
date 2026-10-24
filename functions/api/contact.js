@@ -90,14 +90,16 @@ ${messaggio}
       })
     });
 
-    if (!resendRes.ok) {
+
+      if (!resendRes.ok) {
       const errorBody = await resendRes.text();
-      console.error('ERRORE RESEND:', errorBody);
+      console.error('ERRORE RESEND:', errorBody); // <-- Aggiungi questa riga
       return new Response(JSON.stringify({ error: 'Errore nell\'invio. Riprova più tardi.' }), {
         status: 500,
         headers: { 'Content-Type': 'application/json' }
       });
     }
+
   } catch (err) {
     console.error('ERRORE INVIO EMAIL:', err);
     return new Response(JSON.stringify({ error: 'Errore nell\'invio. Riprova più tardi.' }), {
