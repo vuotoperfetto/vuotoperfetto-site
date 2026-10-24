@@ -60,7 +60,7 @@ export async function onRequestPost(context) {
   const telefono = formData.get('telefono').toString().trim();
   const messaggio = formData.get('messaggio').toString().trim();
 
-  const emailText = `Nuovo messaggio dal modulo contatti VuotoPerfetto
+const emailText = `Nuovo messaggio dal modulo contatti VuotoPerfetto
 
 Nome: ${nome}
 Cognome: ${cognome}
@@ -75,14 +75,31 @@ ${messaggio}
 `;
 
   try {
-    await env.SEB.send({
-      to: 'vuotoperfetto@gmail.com',
-      from: 'Modulo Contatti <no-reply@vuotoperfetto-site.pages.dev>',
-      replyTo: email,
-      subject: `Nuovo contatto da ${nome} ${cognome} (${azienda})`,
-      text: emailText
+    const resendRes = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${env.RESEND_API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        from: 'Modulo Contatti <onboarding@resend.dev>', // vedi nota sotto
+        to: ['vuotoperfetto@gmail.com'],
+        reply_to: email,
+        subject: `Nuovo contatto da ${nome} ${cognome} (${azienda})`,
+        text: emailText
+      })
     });
+
+    if (!resendRes.ok) {
+      const errorBody = await resendRes.text();
+      console.error('ERRORE RESEND:', errorBody);
+      return new Response(JSON.stringify({ error: 'Errore nell\'invio. Riprova più tardi.' }), {
+        status: 500,
+        headers: { 'Content-Type': 'application/json' }
+      });
+    }
   } catch (err) {
+    console.error('ERRORE INVIO EMAIL:', err);
     return new Response(JSON.stringify({ error: 'Errore nell\'invio. Riprova più tardi.' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' }
