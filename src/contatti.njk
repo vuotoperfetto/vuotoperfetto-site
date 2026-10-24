@@ -7,9 +7,8 @@ permalink: /contatti/
 <main class="container" style="padding-top: 50px; padding-bottom: 60px;">
   <div class="product-content" style="max-width: 640px;">
 
-    {% if intro %}
-      <div class="contact-intro">{{ intro | safe }}</div>
-    {% endif %}
+    {# Usa il filtro markdownFile per includere il contenuto di contatti.md #}
+    {{ "src/contatti.md" | markdownFile | safe }}
 
     <p class="required-note">I campi contrassegnati con * sono obbligatori.</p>
 
@@ -109,6 +108,7 @@ permalink: /contatti/
       status.className = 'form-status form-status-success';
       form.reset();
       privacyError.style.display = 'none';
+      if (window.turnstile) turnstile.reset();
     } else {
       status.textContent = data.error || 'Si è verificato un errore. Riprova.';
       status.className = 'form-status form-status-error';
