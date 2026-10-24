@@ -778,3 +778,9 @@ body {
     font-size: 16px;
   }
 }
+.required-note {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+  font-style: italic;
+}
