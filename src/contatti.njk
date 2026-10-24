@@ -11,6 +11,8 @@ permalink: /contatti/
       <div class="contact-intro">{{ intro | safe }}</div>
     {% endif %}
 
+    <p class="required-note">I campi contrassegnati con * sono obbligatori.</p>
+
     <form id="contact-form" class="contact-form" method="POST" action="/api/contact">
       <input type="hidden" name="website" value="">
 
@@ -59,7 +61,10 @@ permalink: /contatti/
       <div class="form-group form-group-checkbox">
         <label class="checkbox-label">
           <input type="checkbox" id="privacy" name="privacy" required>
-          <span>Dichiaro di avere ricevuto l'informativa sul trattamento dei dati personali e di accettarla *</span>
+          <span>
+            dichiaro di avere ricevuto l'informativa sul trattamento dei dati personali e di accettarla.
+            <a href="/privacy/" target="_blank" rel="noopener noreferrer">Leggi l'informativa</a>
+          </span>
         </label>
       </div>
 
