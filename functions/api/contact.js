@@ -81,14 +81,14 @@ const resendRes = await fetch('https://api.resend.com/emails', {
     'Authorization': `Bearer ${env.RESEND_API_KEY}`,
     'Content-Type': 'application/json'
   },
-  body: JSON.stringify({
-    from: 'Modulo Contatti <onboarding@resend.dev>',
-    to: ['vuotoperfetto@gmail.com'],
-    reply_to: email,
-    subject: `Nuovo contatto da ${nome} ${cognome} (${azienda})`,
-    text: emailText
-  })
-});
+body: JSON.stringify({
+  from: 'VuotoPerfetto <no-reply@vuotoperfetto.it>',
+  to: ['vuotoperfetto@gmail.com'],
+  cc: [email], // <-- copia al mittente
+  reply_to: email,
+  subject: `Nuovo contatto da ${nome} ${cognome} (${azienda})`,
+  text: emailText
+})
 
 
       if (!resendRes.ok) {
