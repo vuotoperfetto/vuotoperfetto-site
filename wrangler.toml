@@ -1,7 +1,0 @@
-name = "vuotoperfetto-site"
-compatibility_date = "2026-10-24"
-pages_build_output_dir = "_site"
-
-[[send_email]]
-name = "SEB"
-destination_address = "vuotoperfetto@gmail.com"
