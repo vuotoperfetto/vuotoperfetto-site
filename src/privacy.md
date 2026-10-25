@@ -136,7 +136,7 @@ Inoltre, l'utente può revocare l'accesso dell'applicazione in qualsiasi momento
 
 ### ***e. Conformità ai Requisiti di Uso Limitato di Google (Google Limited Use Requirements)***
 
-L'uso e il trasferimento ad altre app di qualsiasi informazione ricevuta dalle API di Google avverranno nel rispetto della [Google API Services User Data Policy]([https://developers.google.com/terms/api-services-user-data-policy](https://developers.google.com/terms/api-services-user-data-policy)](https://developers.google.com/terms/api-services-user-data-policy))), inclusi i requisiti di Uso Limitato (Limited Use requirements).
+L'uso e il trasferimento ad altre app di qualsiasi informazione ricevuta dalle API di Google avverranno nel rispetto della [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), inclusi i requisiti di Uso Limitato (Limited Use requirements).
 
 
 
