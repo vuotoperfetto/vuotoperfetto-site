@@ -12,7 +12,6 @@ const markdownIt = require('markdown-it')({ html: true });
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk"
   };
-};
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
@@ -70,4 +69,3 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk"
   };
-};
