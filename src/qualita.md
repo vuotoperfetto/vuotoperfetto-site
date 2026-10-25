@@ -54,7 +54,7 @@ Uno spessore adeguato dà **resistenza all’uso quotidiano** e saldature più s
 
 
 
-### Saldatura e tenuta del vuoto nel tempo
+## **Saldatura e tenuta del vuoto nel tempo**
 
 Un sottovuoto è buono quando **resta tale**. Contano tre cose:
 
@@ -62,38 +62,58 @@ Un sottovuoto è buono quando **resta tale**. Contano tre cose:
 - **assenza di micro-fori** nel film;
 - **tenuta dopo il congelamento**, senza separazione degli strati (*delaminazione*).
 
-### Trasparenza: vedi cosa conservi
+
+
+## **Trasparenza: vedi cosa conservi**
 
 Il film è **trasparente**: si riconoscono il **taglio, il colore e lo stato** dell’alimento. Questo aiuta nelle **vetrine di macellerie e gastronomie** e in dispensa, dove permette di controllare a colpo d’occhio la qualità del prodotto.
 
-### Freezer e abbattitore
+I sacchetti per sottovuoto VuotoPerfetto hanno una lucentezza e una trasparenza studiata per essere pari a quella dei sacchetti prodotti con tecnologia cast a testa piana.
 
-Le buste **VuotoPerfetto** sono pensate per **frigorifero, congelatore e abbattitore**. **[Inserire intervallo di temperatura di utilizzo certificato, es. da -XX °C a +XX °C.]** Per i pezzi congelati, **evita urti e piegature** sulla busta rigida.
 
-### Tre controlli per riconoscere una busta di qualità
+
+## **Freezer e abbattitore**
+
+Le buste **VuotoPerfetto** sono pensate per **frigorifero, congelatore e abbattitore**, con un range di **temperatura di utilizzo studiata tra -40 °C e +40 °C.** 
+
+Per i pezzi congelati, **evita urti e piegature** sulla busta rigida.
+
+
+
+## **Tre controlli per riconoscere una busta di qualità**
 
 1. **Prova delle 48 ore:** dopo il vuoto, la busta deve restare **aderente al prodotto**. Se si gonfia, c’è una perdita.
 2. **Saldatura:** deve essere **continua, senza pieghe né zone opache**.
 3. **Prova freezer:** dopo il congelamento, il film non deve **sfogliarsi né sbiancare** lungo le pieghe.
 
-### Domande frequenti sulla qualità delle buste VuotoPerfetto
 
-#### Perché le buste VuotoPerfetto tengono bene il vuoto?
+
+## **Domande frequenti sulla qualità delle buste VuotoPerfetto**
+
+#### **Perché le buste VuotoPerfetto tengono bene il vuoto?**
 
 Per la combinazione di **film multistrato PA/PE**, **spessore dichiarato** e **saldatura ermetica**. La PA limita il passaggio dell’ossigeno, il PE crea una chiusura stabile.
 
-#### Cosa significa PA/PE?
+
+
+#### **Cosa significa PA/PE?**
 
 **PA** è la **poliammide** (nylon), che dà barriera e tenacia. **PE** è il **polietilene**, che permette la saldatura. Insieme formano il film standard del sottovuoto alimentare.
 
-#### Cosa significa estrusione in bolla?
 
-È il processo in cui il polimero fuso viene **gonfiato in una bolla** e poi appiattito in film. Dà **proprietà meccaniche bilanciate** in senso longitudinale e trasversale.
 
-#### Posso usare le buste in congelatore senza rischio di strappi?
+#### **Cosa significa estrusione in bolla?**
+
+È il processo in cui il polimero fuso viene **gonfiato in una bolla** e poi appiattito in film. Dà **proprietà meccaniche bilanciate** in senso longitudinale e trasversale. Le nuove produzioni in bolla garantiscono film economici a parità di spessori, nell'ambito di tolleranze di spessore similari ad altre tecniche di produzione di film piano. Inoltre la lucentezza e la trasparenza dei sacchetti è praticamente identica. In pratica, un sacchetto VuotoPerfetto ha le stesse identiche caratteristiche di un prodotto più costoso, un peso simile o superiore, una tenacia meccanica in senso longitudinale e trasversale superiore rispetto alla media della concorrenza che, viceversa, per pareggiare i prezzi di VuotoPerfetto, è costretta a ridurre gli spessori, limitando il PA, riducendo l'effetto barriera ai gas e la resistenza a trazione del film.
+
+
+
+#### **Posso usare le buste in congelatore senza rischio di strappi?**
 
 Sì, sono pensate per il **congelatore**. Per limitare il rischio, **proteggi le parti taglienti** del cibo e non piegare la busta quando è congelata.
 
-#### Più micron significa sempre più qualità?
+
+
+#### **Più micron significa sempre più qualità?**
 
 No. Lo spessore conta, ma contano anche **struttura del film, qualità della saldatura e barriera ai gas**. Per questo conviene guardare la **scheda tecnica completa**.
