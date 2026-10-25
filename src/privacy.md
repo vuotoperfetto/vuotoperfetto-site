@@ -146,4 +146,56 @@ opporsi, in tutto o in parte, al trattamento per fini di informazione commercial
 
 Ulteriori informazioni sono disponibili sul sito del Garante della Privacy.
 
+
+
+## **Integrazione per l'Uso dei Dati degli Utenti Google (Google OAuth)**
+
+Se scegli di accedere o registrarti alla nostra applicazione tramite il servizio di autenticazione di Google (Google OAuth), raccogliamo e trattiamo alcuni dati forniti da Google.
+
+**a. Dati Raccolti tramite Google**
+
+Quando utilizzi il login tramite Google, l'applicazione accede unicamente alle seguenti informazioni di base del tuo profilo Google (in base ai permessi accordati):
+
+- Indirizzo email principale
+- Nome e cognome
+- URL dell'immagine del profilo (avatar)
+- ID identificativo univoco dell'utente Google
+
+
+
+**2. Finalità del Trattamento dei Dati Google**
+
+I dati ottenuti tramite le API di Google vengono utilizzati esclusivamente per:
+
+- Autenticare l'utente e consentire l'accesso sicuro all'applicazione.
+- Creare e gestire l'account utente sulla piattaforma VuotoPerfetto.
+- Personalizzare l'esperienza utente all'interno dell'applicazione (es. mostrare il nome e l'immagine nel profilo).
+- Inviare comunicazioni di servizio relative all'account o agli ordini effettuati.
+
+
+
+**3. Condivisione, Conservazione e Vendita dei Dati**
+
+* **Nessuna Vendita:** I dati ottenuti tramite l'integrazione con Google non vengono venduti, affittati o ceduti a terzi per alcun motivo.
+
+* **Nessun Uso Pubblicitario:** Non utilizziamo i dati dell'account Google dell'utente per finalità pubblicitarie o di targeting di annunci.
+
+* **Nessun Addestramento AI:** I dati personali e le informazioni dell'account Google non vengono usati per addestrare modelli di intelligenza artificiale o Machine Learning.
+
+* **Limitazione dell'accesso:** L'accesso ai dati personali è limitato esclusivamente al personale autorizzato per garantire il corretto funzionamento dell'applicazione.
+
+
+
+**4. Conservazione e Cancellazione dei Dati Google**
+
+I dati del profilo Google rimangono associati all'account dell'utente finché l'account rimane attivo. L'utente può richiedere in qualsiasi momento la cancellazione completa del proprio account e dei dati associati inviando una richiesta all'indirizzo email `info@vuotoperfetto.it`. Inoltre, l'utente può revocare l'accesso dell'applicazione in qualsiasi momento tramite la pagina delle impostazioni di sicurezza del proprio account Google ([[https://myaccount.google.com/permissions](https://myaccount.google.com/permissions)](https://myaccount.google.com/permissions](https://myaccount.google.com/permissions))).
+
+
+
+**5. Conformità ai Requisiti di Uso Limitato di Google (Google Limited Use Requirements)**
+
+L'uso e il trasferimento ad altre app di qualsiasi informazione ricevuta dalle API di Google avverranno nel rispetto della **[Google API Services User Data Policy]([https://developers.google.com/terms/api-services-user-data-policy)](https://developers.google.com/terms/api-services-user-data-policy)**)**, inclusi i requisiti di Uso Limitato (Limited Use requirements).
+
+
+
 Ultimo aggiornamento: 25/10/2026
