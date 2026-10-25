@@ -27,3 +27,42 @@ module.exports = function(eleventyConfig) {
     htmlTemplateEngine: "njk"
   };
 };
+
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/materiale");
+
+  // Filtro per generare il JSON-LD FAQPage dal frontmatter
+  eleventyConfig.addFilter("faqSchema", function(faqs) {
+    if (!faqs || !Array.isArray(faqs) || faqs.length === 0) {
+      return '';
+    }
+
+    const mainEntity = faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }));
+
+    const schema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": mainEntity
+    };
+
+    return JSON.stringify(schema, null, 2);
+  });
+
+  return {
+    dir: {
+      input: "src",
+      output: "_site",
+      includes: "_includes"
+    },
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk"
+  };
+};
