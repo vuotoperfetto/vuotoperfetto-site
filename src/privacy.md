@@ -130,13 +130,13 @@ I dati del profilo Google rimangono associati all'account dell'utente finché l'
 
 L'utente può richiedere in qualsiasi momento la cancellazione completa del proprio account e dei dati associati inviando una richiesta all'indirizzo email `info@vuotoperfetto.it`. 
 
-Inoltre, l'utente può revocare l'accesso dell'applicazione in qualsiasi momento tramite la pagina delle **impostazioni di sicurezza del proprio account Google** [(https://myaccount.google.com/permissions]](https://myaccount.google.com/permissions](https://myaccount.google.com/permissions)](https://myaccount.google.com/permissions](https://myaccount.google.com/permissions)).
+Inoltre, l'utente può revocare l'accesso dell'applicazione in qualsiasi momento tramite la pagina delle **[impostazioni di sicurezza del proprio account Google](https://myaccount.google.com/permissions)**.
 
 
 
 ### ***e. Conformità ai Requisiti di Uso Limitato di Google (Google Limited Use Requirements)***
 
-L'uso e il trasferimento ad altre app di qualsiasi informazione ricevuta dalle API di Google avverranno nel rispetto della Google API Services User Data Policy ([https://developers.google.com/terms/api-services-user-data-policy)](https://developers.google.com/terms/api-services-user-data-policy)](https://developers.google.com/terms/api-services-user-data-policy)), inclusi i requisiti di Uso Limitato (Limited Use requirements).
+L'uso e il trasferimento ad altre app di qualsiasi informazione ricevuta dalle API di Google avverranno nel rispetto della [Google API Services User Data Policy]([https://developers.google.com/terms/api-services-user-data-policy](https://developers.google.com/terms/api-services-user-data-policy)](https://developers.google.com/terms/api-services-user-data-policy))), inclusi i requisiti di Uso Limitato (Limited Use requirements).
 
 
 
