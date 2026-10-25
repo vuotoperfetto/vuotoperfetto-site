@@ -16,6 +16,12 @@ Il film **multistrato PA/PE** (poliammide e polietilene) offre una **saldatura e
 
 
 
+## **Sicurezza alimentare e conformità**
+
+Le buste **VuotoPerfetto** sono prodotte con materiali idonei al **contatto alimentare**, nel rispetto della normativa europea sui **MOCA** (materiali e oggetti a contatto con alimenti). 
+
+
+
 ## **Perché scegliere le buste lisce VuotoPerfetto**
 
 - **90 micron su entrambi i lati:** spessore uniforme per una buona resistenza nell’uso quotidiano.
@@ -142,3 +148,36 @@ I sacchetti sottovuoto lisci VuotoPerfetto sono disponibili in buste pretagliate
 
 
  Tutti i formati sono realizzati in film multistrato da 90 micron su entrambi i lati, idoneo al contatto con gli alimenti. Il materiale è adatto alla conservazione in frigorifero, al congelamento e alla cottura sottovuoto a bassa temperatura.
+
+
+
+## **Domande frequenti (FAQ) sulle buste sottovuoto lisce**
+
+#### **Perché le buste lisce non funzionano sulle macchine ad aspirazione esterna?**
+
+Perché mancano i **micro-canali della goffratura**, che servono a far uscire l’aria quando le pareti del sacchetto si schiacciano. Le buste lisce funzionano **solo con le macchine a campana**, che aspirano l’aria dall’intera camera.
+
+
+
+#### **Che spessore scegliere per una cucina professionale o una macelleria?**
+
+Per la conservazione quotidiana si usano di solito spessori tra **70 e 90 micron**. Con prodotti rigidi o taglienti, come carni con osso o crostacei, si preferiscono **spessori maggiori** o si protegge il prodotto prima del vuoto.
+
+
+
+#### **Si possono confezionare cibi liquidi o caldi?**
+
+Sì per i liquidi, con la **macchina a campana** e le buste lisce. **Lascia raffreddare i cibi caldi** prima del confezionamento, per evitare l’ebollizione a bassa pressione.
+
+
+
+#### **Le buste lisce da conservazione vanno bene per il sous vide?**
+
+Le buste da conservazione standard in PA/PE sono in genere indicate fino a circa **70 °C**. Per la **cottura sous vide** verifica che la busta sia **dichiarata idonea alla cottura** nella scheda tecnica.
+
+
+
+#### **Ho una macchina sottovuoto professionale ma non ha forma cubica e il sacchetto resta fuori poggiato sul piano di appoggio. Posso usare i sacchetti sottovuoto lisci?**
+
+No. Anche se la tua macchina sottovuoto è certificata per uso professionale, fatta con materiali di qualità come l'acciaio inox, essa non è una macchina a campana, ma una macchina ad aspirazione esterna. Quindi non può essere usata con sacchetti lisci. Puoi però acquistare le nostre **[buste sottovuoto goffrate](https://vuotoperfetto.it/goffrato).** 
+
