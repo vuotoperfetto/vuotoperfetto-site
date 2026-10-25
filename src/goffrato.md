@@ -4,6 +4,36 @@ description: "Sacchetti e rotoli sottovuoto goffrati per alimenti: trama a rombi
   per la massima aspirazione, conservazione prolungata e sicurezza alimentare.
   Scopri come usarli."
 ---
+## **Buste sottovuoto goffrate per alimenti: conservazione più lunga, qualità intatta**
+
+**VuotoPerfetto** è il marchio di **buste sottovuoto goffrate per alimenti** pensate per chi vuole conservare più a lungo freschezza, sapore e proprietà dei cibi. Sono compatibili con le **macchine sottovuoto ad aspirazione esterna**, le più diffuse in casa, nei negozi e nei piccoli laboratori.
+
+
+
+Sono **sacchetti goffrati per sottovuoto** con superficie a **rombo**, in **multistrato PA/PE** (poliammide e polietilene), **senza BPA**. Con **VuotoPerfetto** si ottiene un sottovuoto efficace, una saldatura sicura e una **shelf life** più lunga per carne, pesce, formaggi, salumi e verdure.
+
+
+
+## **Perché scegliere le buste goffrate VuotoPerfetto**
+
+- **Goffratura a rombo:** i micro-canali lasciano passare l’aria durante l’aspirazione, per un sottovuoto completo e uniforme.
+- **Struttura multistrato PA/PE:** è una **barriera all’umidità e ai gas** che protegge il cibo da ossidazione, bruciature da freddo e odori.
+- **Spessore differenziato:** **100 micron** sul lato goffrato e **90 micron** sul lato liscio, per resistenza alla perforazione (ossicini, croste, spigoli) e trasparenza per vedere il contenuto.
+- **Senza BPA:** materiali idonei al contatto con gli alimenti.
+- **Uso versatile:** adatte a frigorifero, **congelatore/freezer** e **abbattitore**.
+
+
+
+## **Cosa significa “goffrata a rombo” e perché serve**
+
+La **goffratura a rombo** è una trama in rilievo sul lato interno della busta. Durante l’aspirazione crea piccoli canali che impediscono ai due lembi di aderire tra loro, così l’aria può uscire fino in fondo.
+
+
+
+Senza goffratura, una **macchina sottovuoto ad aspirazione esterna** non riesce ad aspirare in modo efficace. Per questo le buste goffrate sono la scelta giusta per le macchine domestiche e semi-professionali.
+
+
+
 I **sacchetti sottovuoto goffrati** **VuotoPerfetto** sono la soluzione affidabile per la conservazione professionale e domestica degli alimenti. 
 
 
@@ -55,6 +85,32 @@ In ambito professionale vengono utilizzati in ristorazione, macellerie, pescheri
 
 
 Inoltre i sacchetti per sottovuoto, proteggendo accuratamente gli alimenti, **sono particolarmente utili anche per il trasporto verso casa degli alimenti appena confezionati**.
+
+
+
+## **Spessore: 100 micron lato goffrato, 90 micron lato liscio**
+
+Lo **spessore in micron** incide su resistenza e durata. Le buste **VuotoPerfetto** abbinano:
+
+- **100 micron sul lato goffrato**, che sostiene la trama e resiste allo stress del sottovuoto;
+- **90 micron sul lato liscio**, trasparente e flessibile, che permette di vedere bene il contenuto.
+
+
+
+Sono quindi adatte anche ad alimenti con parti rigide o taglienti, come carne con osso, pesce con lische o formaggi a crosta dura.
+
+
+
+## **Per quali alimenti usare i sacchetti per macchina sottovuoto**
+
+Le buste **VuotoPerfetto** sono indicate per:
+
+- **Carne fresca**, per prolungarne la conservazione in frigo e in freezer
+- **Pesce**, con meno ossidazione e meno odori
+- **Formaggi**, che mantengono aroma e consistenza
+- **Insaccati e affettati**, con meno disidratazione
+- **Verdure**, anche dopo la sbollentatura, prima del congelamento
+- **Cibi d’asporto e porzioni pronte**, utili per meal prep e ristorazione
 
 
 
