@@ -3,6 +3,20 @@ const path = require('path');
 const { parse } = require('node-html-parser');
 const markdownIt = require('markdown-it')({ html: true });
 
+const sitemap = require("@nichoth/eleventy-plugin-sitemap");
+
+module.exports = function(eleventyConfig) {
+  // ... altri passthrough copy e filtri ...
+
+  eleventyConfig.addPlugin(sitemap, {
+    sitemap: {
+      hostname: "https://vuotoperfetto.it", // Sostituisci con il tuo dominio reale
+    },
+  });
+
+  return { /* ... */ };
+};
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/materiale");
