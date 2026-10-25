@@ -14,10 +14,16 @@ jobs:
 
       - name: Recupera impostazioni progetto Cloudflare
         run: |
-          curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CF_ACCOUNT_ID }}/pages/projects/${{ secrets.CF_PAGES_PROJECT }}" \
+          curl -sS --fail \
+            -X GET "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CF_ACCOUNT_ID }}/pages/projects/${{ secrets.CF_PAGES_PROJECT }}" \
             -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
             -H "Content-Type: application/json" \
-            -o cloudflare-settings-$(date +%Y%m%d).json
+            -o cloudflare-settings.json
+
+      - name: Verifica che il file sia stato creato
+        run: |
+          ls -la cloudflare-settings.json
+          head -c 200 cloudflare-settings.json
 
       - name: Carica su Google Drive
         uses: logickoder/g-drive-upload@main
@@ -26,5 +32,6 @@ jobs:
           clientId: ${{ secrets.GOOGLE_CLIENT_ID }}
           clientSecret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           refreshToken: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-          filename: 'cloudflare-settings-$(date +%Y%m%d).json'
+          filename: 'cloudflare-settings.json'
           folderId: '1Xr6eNieLw0JEdLQ02GUmz7UA3oPa_SW-'
+          overwrite: true
