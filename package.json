@@ -10,3 +10,9 @@
     "node-html-parser": "^6.1.13"
   }
 }
+"devDependencies": {
+  "@11ty/eleventy": "^3.0.0",
+  "@nichoth/eleventy-plugin-sitemap": "^2.2.0",
+  "markdown-it": "^14.0.0",
+  "node-html-parser": "^6.1.13"
+}
