@@ -68,8 +68,6 @@ L'utilizzo è semplice e richiede pochi passaggi, che riportiamo per semplicità
 4. inserisci la bocca del sacchetto nell'apposito vano (camera del vuoto, solitamente tra due guarnizioni nere) della macchina per il sottovuoto e avvia il ciclo;
 5. la macchina aspirerà l'aria attraverso i canali della goffratura e sigillerà il bordo con una saldatura a caldo
 
-
-
 **Al termine, verifica che la saldatura sia continua e che il sacchetto aderisca all'alimento**. 
 
 
@@ -120,3 +118,36 @@ Le buste sottovuoto, inoltre, possono essere acquistate in **pacchetti da 50 pez
 - 25x35 cm;
 - 30x40 cm.
 
+
+
+## **Domande frequenti sulle buste sottovuoto goffrate**
+
+### ***Qual è la differenza tra buste lisce e buste goffrate?***
+
+Le **buste goffrate** hanno una superficie interna a trama, con micro-canali che permettono l’estrazione dell’aria nelle **macchine sottovuoto ad aspirazione esterna** (uso domestico e semi-professionale). Le **buste lisce** sono adatte alle sole macchine a campana professionali.
+
+
+
+&nbsp;
+
+### ***I sacchetti goffrati si possono usare per la cottura sous vide?***
+
+I sacchetti sottovuoto VuotoPerfetto non dispongono di una specifica certificazione che permetta di dire che sono automaticamente idonei per la cottura sottovuoto.
+
+
+
+### ***Le buste sottovuoto goffrate sono riutilizzabili?***
+
+Dopo la conservazione di cibi secchi, formaggi o salumi, possono essere riutilizzate se **lavate accuratamente** (a mano, o in lavastoviglie se il produttore lo consente). **Se ne sconsiglia il riuso** dopo contatto con carne cruda o pesce, per motivi igienico-sanitari.
+
+
+
+### ***Come scelgo la misura dei sacchetti?***
+
+#### Valuta volume e forma dell’alimento. I formati più versatili sono **20x30 cm** e **25x35 cm**, ideali per porzioni familiari di carne, pesce o verdure.
+
+
+
+### ***VuotoPerfetto: il sottovuoto che conserva davvero?***
+
+Si! Con **VuotoPerfetto** hai **buste sottovuoto goffrate per alimenti** affidabili, in **multistrato PA/PE senza BPA**, con **goffratura a rombo** e spessore **100/90 micron**, per un sottovuoto efficace e una conservazione più lunga.
