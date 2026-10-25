@@ -122,7 +122,7 @@ Le buste sottovuoto, inoltre, possono essere acquistate in **pacchetti da 50 pez
 
 ## **Domande frequenti sulle buste sottovuoto goffrate**
 
-### ***Qual è la differenza tra buste lisce e buste goffrate?***
+### #### ***Qual è la differenza tra buste lisce e buste goffrate?***
 
 Le **buste goffrate** hanno una superficie interna a trama, con micro-canali che permettono l’estrazione dell’aria nelle **macchine sottovuoto ad aspirazione esterna** (uso domestico e semi-professionale). Le **buste lisce** sono adatte alle sole macchine a campana professionali.
 
@@ -130,24 +130,26 @@ Le **buste goffrate** hanno una superficie interna a trama, con micro-canali che
 
 &nbsp;
 
-### ***I sacchetti goffrati si possono usare per la cottura sous vide?***
+### ***I***####  ***sacchetti goffrati si possono usare per la cottura sous vide?***
 
 I sacchetti sottovuoto VuotoPerfetto non dispongono di una specifica certificazione che permetta di dire che sono automaticamente idonei per la cottura sottovuoto.
 
 
 
-### ***Le buste sottovuoto goffrate sono riutilizzabili?***
+### #### ***Le buste sottovuoto goffrate sono riutilizzabili?***
 
 Dopo la conservazione di cibi secchi, formaggi o salumi, possono essere riutilizzate se **lavate accuratamente** (a mano, o in lavastoviglie se il produttore lo consente). **Se ne sconsiglia il riuso** dopo contatto con carne cruda o pesce, per motivi igienico-sanitari.
 
 
 
-### ***Come scelgo la misura dei sacchetti?***
+### #### ***Come scelgo la misura dei sacchetti?***
 
 #### Valuta volume e forma dell’alimento. I formati più versatili sono **20x30 cm** e **25x35 cm**, ideali per porzioni familiari di carne, pesce o verdure.
 
 
 
-### ***VuotoPerfetto: il sottovuoto che conserva davvero?***
+&nbsp;
+
+### #### ***VuotoPerfetto: il sottovuoto che conserva davvero?***
 
 Si! Con **VuotoPerfetto** hai **buste sottovuoto goffrate per alimenti** affidabili, in **multistrato PA/PE senza BPA**, con **goffratura a rombo** e spessore **100/90 micron**, per un sottovuoto efficace e una conservazione più lunga.
