@@ -79,7 +79,7 @@ Messaggio:
 ${messaggio}
 `;
 
-  // 6. Invio tramite Resend (mittente onboarding@resend.dev)
+  // 6. Invio tramite Resend
   try {
     const resendRes = await fetch('https://api.resend.com/emails', {
       method: 'POST',
@@ -90,7 +90,6 @@ ${messaggio}
       body: JSON.stringify({
         from: 'Modulo Contatti <onboarding@resend.dev>',
         to: ['vuotoperfetto@gmail.com'],
-        cc: [email],
         reply_to: email,
         subject: `Nuovo contatto da ${nome} ${cognome} (${azienda})`,
         text: emailText
