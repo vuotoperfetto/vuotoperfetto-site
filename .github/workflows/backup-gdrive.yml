@@ -1,0 +1,27 @@
+name: Backup settimanale su Google Drive
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'   # Ogni domenica alle 03:00 UTC (05:00 ora italiana)
+  workflow_dispatch:        # Permette anche l'avvio manuale dalla scheda Actions
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repository
+        uses: actions/checkout@v6
+
+      - name: Crea archivio ZIP dei file (senza .git e node_modules)
+        run: |
+          zip -r backup-vuotoperfetto.zip . -x ".git/*" -x "node_modules/*"
+
+      - name: Carica su Google Drive
+        uses: logickoder/g-drive-upload@main
+        with:
+          authType: 'oauth'
+          clientId: ${{ secrets.GOOGLE_CLIENT_ID }}
+          clientSecret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          refreshToken: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          file: 'backup-vuotoperfetto.zip'
+          parentFolderId: '1Xr6eNieLw0JEdLQ02GUmz7UA3oPa_SW-?hl=it'
