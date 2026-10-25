@@ -14,19 +14,45 @@ La presente informativa sulla protezione dei dati personali riguarda i dati pers
 
 ELCA S.r.l. sottopone i dati personali del Cliente a tutte le operazioni di trattamento individuate dal D.Lg. 196/03. Tali operazioni possono comprendere:
 
--     raccolta,
--     registrazione,
--     organizzazione,
--     conservazione,
--     elaborazione,
--     modifica,
--     selezione,
--     estrazione,
--     raffronto,
--     utilizzo,
--     interconnessione
--     ogni altra operazione utile alla fornitura dei servizi richiestici,
--     comunicazione a terzi, ove necessaria ai fini della esecuzione dell’accordo ­
+- ```
+raccolta,
+```
+- ```
+registrazione,
+```
+- ```
+organizzazione,
+```
+- ```
+conservazione,
+```
+- ```
+elaborazione,
+```
+- ```
+modifica,
+```
+- ```
+selezione,
+```
+- ```
+estrazione,
+```
+- ```
+raffronto,
+```
+- ```
+utilizzo,
+```
+- ```
+interconnessione
+```
+- ```
+ogni altra operazione utile alla fornitura dei servizi richiestici,
+```
+- ```
+comunicazione a terzi, ove necessaria ai fini della esecuzione dell’accordo ­
+```
 
 I dati forniti vengono trattati prevalentemente con modalità automatizzate ed informatizzate. Tali dati potranno anche essere organizzati in banche dati o archivi.
 
@@ -42,10 +68,18 @@ I dati personali saranno trattati da ELCA S.r.l. allo scopo di potere eseguire i
 
 In particolare, le finalità del trattamento dei dati personali sono le seguenti:
 
--     fornire i prodotti e servizi previsti;
--     verificare la qualità dei servizi offerti, anche offrendo servizi post vendita;
--     provvedere a tutti gli eventuali adempimenti contabili e fiscali;
--     risalire ad autori di eventuali illeciti solo in caso di specifiche richieste delle autorità competenti.
+- ```
+fornire i prodotti e servizi previsti;
+```
+- ```
+verificare la qualità dei servizi offerti, anche offrendo servizi post vendita;
+```
+- ```
+provvedere a tutti gli eventuali adempimenti contabili e fiscali;
+```
+- ```
+risalire ad autori di eventuali illeciti solo in caso di specifiche richieste delle autorità competenti.
+```
 
 ELCA S.r.l. potrà acquisire direttamente o tramite società terze le informazioni sul grado di affidabilità e puntualità nei pagamenti. Verranno utilizzati archivi o registri pubblici (es.: iscrizioni pregiudizievoli e protesti) e sistemi di informazioni creditizie (es.: rapporti di finanziamento).
 
@@ -85,14 +119,30 @@ Il Cliente ha diritto di accedere in ogni momento ai dati che lo riguardano e di
 
 In particolare, ELCA S.r.l. informa che il Cliente ha diritto di:
 
--     conoscere l’esistenza di trattamenti di dati che lo riguardano;
--     essere informato degli estremi del titolare e responsabile del trattamento;
--     ottenere a cura del titolare del trattamento: la conferma dell’esistenza di dati personali, la comunicazione dei medesimi e della loro origine, nonché della logica e delle finalità del trattamento;
--     ottenere la cancellazione, la trasformazione in forma anonima o il blocco di dati trattati in violazione della Legge;
--     ottenere l’aggiornamento, la rettificazione e l’integrazione dei dati;
--     ottenere l’attestazione che le operazioni di cui al precedente punto sono state portate a conoscenza di coloro a cui i dati sono stati comunicati e/o diffusi;
--     opporsi, in tutto o in parte, per legittimi motivi al trattamento;
--     opporsi, in tutto o in parte, al trattamento per fini di informazione commerciale ovvero per il compimento di ricerche di mercato o di comunicazione commerciale e simili.
+- ```
+conoscere l’esistenza di trattamenti di dati che lo riguardano;
+```
+- ```
+essere informato degli estremi del titolare e responsabile del trattamento;
+```
+- ```
+ottenere a cura del titolare del trattamento: la conferma dell’esistenza di dati personali, la comunicazione dei medesimi e della loro origine, nonché della logica e delle finalità del trattamento;
+```
+- ```
+ottenere la cancellazione, la trasformazione in forma anonima o il blocco di dati trattati in violazione della Legge;
+```
+- ```
+ottenere l’aggiornamento, la rettificazione e l’integrazione dei dati;
+```
+- ```
+ottenere l’attestazione che le operazioni di cui al precedente punto sono state portate a conoscenza di coloro a cui i dati sono stati comunicati e/o diffusi;
+```
+- ```
+opporsi, in tutto o in parte, per legittimi motivi al trattamento;
+```
+- ```
+opporsi, in tutto o in parte, al trattamento per fini di informazione commerciale ovvero per il compimento di ricerche di mercato o di comunicazione commerciale e simili.
+```
 
 Ulteriori informazioni sono disponibili sul sito del Garante della Privacy.
 
