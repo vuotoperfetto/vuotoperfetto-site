@@ -3,16 +3,6 @@ const path = require('path');
 const { parse } = require('node-html-parser');
 const markdownIt = require('markdown-it')({ html: true });
 
-  return {
-    dir: {
-      input: "src",
-      output: "_site",
-      includes: "_includes"
-    },
-    markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk"
-  };
-
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/materiale");
@@ -69,3 +59,4 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk"
   };
+};
