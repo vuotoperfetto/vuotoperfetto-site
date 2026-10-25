@@ -83,6 +83,31 @@ Raggiunto il vuoto desiderato, la barra saldante chiude il sacchetto, e solo dop
 
 Questo sistema consente di confezionare anche alimenti liquidi o umidi, senza rischi di aspirazione del liquido nella pompa, ed è per questo che le macchine a campana sono lo standard nella ristorazione professionale.
 
+
+
+## **Perché la macchina a campana riesce a fare il vuoto con buste lisce contenenti acqua e alimenti molto umidi?**
+
+**Perché nella macchina a campana la pressione è uguale dentro e fuori dalla busta in ogni istante.** La busta liscia viene appoggiata nella camera con l’apertura rivolta verso l’interno: la pompa aspira l’aria **dell’intera camera**, e l’aria nel sacchetto esce insieme a quella intorno. Poiché le due pressioni scendono insieme, **non c’è alcuna differenza di pressione sulle pareti della busta e nessuna forza che trascini il liquido verso l’apertura**. Acqua, salse e alimenti umidi restano sul fondo, trattenuti dalla gravità.
+
+
+
+**Come si forma il sottovuoto.** Raggiunto il livello di vuoto impostato, la **barra saldante** chiude la busta mentre la camera è ancora sottovuoto. Quando l’aria rientra nella camera, la **pressione atmosferica** schiaccia la busta contro il prodotto: la busta aderisce al cibo e l’aria residua al suo interno è minima.
+
+
+
+**Perché non funziona con le macchine ad aspirazione esterna.** In queste macchine l’aria viene aspirata **solo dall’interno del sacchetto**, attraverso l’apertura, mentre fuori resta la pressione atmosferica. Le pareti si schiacciano e il liquido viene **richiamato verso il punto di aspirazione**, fino a invadere la barra saldante e la pompa. Per questo servono le buste goffrate, e con alimenti molto umidi il risultato resta incerto.
+
+
+
+**Attenzione all’ebollizione.** Quando la pressione scende molto, **l’acqua bolle anche a temperatura ambiente**. Più il liquido è caldo, prima si raggiunge l’ebollizione, con schizzi, perdita di liquido e saldatura compromessa. Per questo conviene:
+
+- **raffreddare i liquidi** prima del confezionamento;
+- **non riempire troppo la busta**, lasciando spazio sopra il livello del liquido;
+- usare macchine con **controllo del livello di vuoto** (sensore o tempo impostabile), per fermare l’aspirazione prima dell’ebollizione;
+- **cambiare regolarmente l’olio della pompa**, perché il vapore acqueo lo contamina.
+
+
+
 ## **A cosa servono le buste lisce**
 
 Le **buste sottovuoto lisce** sono ideali per la conservazione professionale di carni, pesce, salumi, formaggi stagionati e piatti pronti. 
