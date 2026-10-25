@@ -40,19 +40,3 @@ content:
           format: markdown
           switcher: false
           media: false
-      - name: faq
-        label: "Domande Frequenti (FAQ)"
-        type: object
-        list: true
-        fields:
-          - name: question
-            label: "Domanda"
-            type: string
-            required: true
-          - name: answer
-            label: "Risposta"
-            type: rich-text
-            options:
-              format: markdown
-              switcher: false
-              media: false
