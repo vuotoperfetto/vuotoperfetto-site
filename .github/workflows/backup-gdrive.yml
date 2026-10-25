@@ -24,4 +24,4 @@ jobs:
           clientSecret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           refreshToken: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
           filename: 'backup-vuotoperfetto.zip'
-          folderId: '1Xr6eNieLw0JEdLQ02GUmz7UA3oPa_SW-?hl=it'
+          folderId: '1Xr6eNieLw0JEdLQ02GUmz7UA3oPa_SW-'
