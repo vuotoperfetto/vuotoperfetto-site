@@ -163,7 +163,7 @@ Quando utilizzi il login tramite Google, l'applicazione accede unicamente alle s
 
 
 
-**2. Finalità del Trattamento dei Dati Google**
+**b. Finalità del Trattamento dei Dati Google**
 
 I dati ottenuti tramite le API di Google vengono utilizzati esclusivamente per:
 
@@ -174,7 +174,7 @@ I dati ottenuti tramite le API di Google vengono utilizzati esclusivamente per:
 
 
 
-**3. Condivisione, Conservazione e Vendita dei Dati**
+**c. Condivisione, Conservazione e Vendita dei Dati**
 
 * **Nessuna Vendita:** I dati ottenuti tramite l'integrazione con Google non vengono venduti, affittati o ceduti a terzi per alcun motivo.
 
@@ -186,13 +186,13 @@ I dati ottenuti tramite le API di Google vengono utilizzati esclusivamente per:
 
 
 
-**4. Conservazione e Cancellazione dei Dati Google**
+**d. Conservazione e Cancellazione dei Dati Google**
 
 I dati del profilo Google rimangono associati all'account dell'utente finché l'account rimane attivo. L'utente può richiedere in qualsiasi momento la cancellazione completa del proprio account e dei dati associati inviando una richiesta all'indirizzo email `info@vuotoperfetto.it`. Inoltre, l'utente può revocare l'accesso dell'applicazione in qualsiasi momento tramite la pagina delle impostazioni di sicurezza del proprio account Google ([[https://myaccount.google.com/permissions](https://myaccount.google.com/permissions)](https://myaccount.google.com/permissions](https://myaccount.google.com/permissions))).
 
 
 
-**5. Conformità ai Requisiti di Uso Limitato di Google (Google Limited Use Requirements)**
+**e. Conformità ai Requisiti di Uso Limitato di Google (Google Limited Use Requirements)**
 
 L'uso e il trasferimento ad altre app di qualsiasi informazione ricevuta dalle API di Google avverranno nel rispetto della **[Google API Services User Data Policy]([https://developers.google.com/terms/api-services-user-data-policy)](https://developers.google.com/terms/api-services-user-data-policy)**)**, inclusi i requisiti di Uso Limitato (Limited Use requirements).
 
