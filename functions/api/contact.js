@@ -2,6 +2,7 @@ export async function onRequestPost(context) {
   const { request, env } = context;
   const formData = await request.formData();
 
+  // 1. Honeypot
   const honeypot = formData.get('website');
   if (honeypot) {
     return new Response(JSON.stringify({ error: 'Richiesta non valida.' }), {
@@ -10,6 +11,7 @@ export async function onRequestPost(context) {
     });
   }
 
+  // 2. Turnstile
   const token = formData.get('cf-turnstile-response');
   if (!token) {
     return new Response(JSON.stringify({ error: 'Verifica di sicurezza mancante.' }), {
@@ -33,6 +35,7 @@ export async function onRequestPost(context) {
     });
   }
 
+  // 3. Validazione campi obbligatori
   const required = ['nome', 'cognome', 'azienda', 'partita_iva', 'localita', 'email', 'telefono', 'messaggio'];
   for (const field of required) {
     if (!formData.get(field)?.toString().trim()) {
@@ -51,6 +54,7 @@ export async function onRequestPost(context) {
     });
   }
 
+  // 4. Estrazione dati
   const nome = formData.get('nome').toString().trim();
   const cognome = formData.get('cognome').toString().trim();
   const azienda = formData.get('azienda').toString().trim();
@@ -60,7 +64,8 @@ export async function onRequestPost(context) {
   const telefono = formData.get('telefono').toString().trim();
   const messaggio = formData.get('messaggio').toString().trim();
 
-const emailText = `Nuovo messaggio dal modulo contatti VuotoPerfetto
+  // 5. Composizione email
+  const emailText = `Nuovo messaggio dal modulo contatti VuotoPerfetto
 
 Nome: ${nome}
 Cognome: ${cognome}
@@ -74,32 +79,32 @@ Messaggio:
 ${messaggio}
 `;
 
+  // 6. Invio tramite Resend
   try {
-const resendRes = await fetch('https://api.resend.com/emails', {
-  method: 'POST',
-  headers: {
-    'Authorization': `Bearer ${env.RESEND_API_KEY}`,
-    'Content-Type': 'application/json'
-  },
-body: JSON.stringify({
-  from: 'VuotoPerfetto <no-reply@vuotoperfetto.it>',
-  to: ['vuotoperfetto@gmail.com'],
-  cc: [email], // <-- copia al mittente
-  reply_to: email,
-  subject: `Nuovo contatto da ${nome} ${cognome} (${azienda})`,
-  text: emailText
-})
+    const resendRes = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${env.RESEND_API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        from: 'VuotoPerfetto <no-reply@vuotoperfetto.it>',
+        to: ['vuotoperfetto@gmail.com'],
+        cc: [email],
+        reply_to: email,
+        subject: `Nuovo contatto da ${nome} ${cognome} (${azienda})`,
+        text: emailText
+      })
+    });
 
-
-      if (!resendRes.ok) {
+    if (!resendRes.ok) {
       const errorBody = await resendRes.text();
-      console.error('ERRORE RESEND:', errorBody); // <-- Aggiungi questa riga
+      console.error('ERRORE RESEND:', errorBody);
       return new Response(JSON.stringify({ error: 'Errore nell\'invio. Riprova più tardi.' }), {
         status: 500,
         headers: { 'Content-Type': 'application/json' }
       });
     }
-
   } catch (err) {
     console.error('ERRORE INVIO EMAIL:', err);
     return new Response(JSON.stringify({ error: 'Errore nell\'invio. Riprova più tardi.' }), {
@@ -108,6 +113,7 @@ body: JSON.stringify({
     });
   }
 
+  // 7. Risposta di successo
   return new Response(JSON.stringify({ ok: true }), {
     status: 200,
     headers: { 'Content-Type': 'application/json' }
