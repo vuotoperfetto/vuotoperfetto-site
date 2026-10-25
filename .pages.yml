@@ -28,15 +28,7 @@ content:
           categories: [image]
       - name: intro
         label: "Testo introduttivo"
-        type: rich-text
-        options:
-          format: markdown
-          switcher: false
-          media: false
+        type: text
       - name: body
         label: "Contenuto"
-        type: rich-text
-        options:
-          format: markdown
-          switcher: false
-          media: false
+        type: text
