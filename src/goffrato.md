@@ -128,8 +128,6 @@ Le **buste goffrate** hanno una superficie interna a trama, con micro-canali che
 
 
 
-&nbsp;
-
 #### ***I sacchetti goffrati si possono usare per la cottura sous vide?***
 
 I sacchetti sottovuoto VuotoPerfetto non dispongono di una specifica certificazione che permetta di dire che sono automaticamente idonei per la cottura sottovuoto.
