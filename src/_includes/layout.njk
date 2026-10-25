@@ -6,11 +6,6 @@
   <title>{{ title }} - VuotoPerfetto</title>
   <meta name="description" content="{{ description or '' }}">
   <link rel="stylesheet" href="/css/style.css">
-{% if faq %}
-<script type="application/ld+json">
-{{ faq | faqSchema | safe }}
-</script>
-{% endif %}
 </head>
 <body class="pattern-bg">
 
@@ -61,7 +56,12 @@
       </div>
     </div>
   </footer>
-
+{% set faqSchema = content | faqSchemaFromH4 %}
+{% if faqSchema %}
+<script type="application/ld+json">
+{{ faqSchema | safe }}
+</script>
+{% endif %}
   <script>
     function toggleMenu() {
       document.getElementById('navMenu').classList.toggle('open');
