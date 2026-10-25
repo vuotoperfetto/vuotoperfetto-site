@@ -10,11 +10,19 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
-      hostname: "https://vuotoperfetto.it", // Sostituisci con il tuo dominio reale
-    },
+      hostname: "https://vuotoperfetto.it"
+    }
   });
 
-  return { /* ... */ };
+  return {
+    dir: {
+      input: "src",
+      output: "_site",
+      includes: "_includes"
+    },
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk"
+  };
 };
 
 module.exports = function(eleventyConfig) {
