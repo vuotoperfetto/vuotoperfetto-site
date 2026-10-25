@@ -1,4 +1,4 @@
-name: Backup settimanale su Google Drive
+          name: Backup settimanale su Google Drive
 
 on:
   schedule:
@@ -23,5 +23,5 @@ jobs:
           clientId: ${{ secrets.GOOGLE_CLIENT_ID }}
           clientSecret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           refreshToken: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-          file: 'backup-vuotoperfetto.zip'
-          parentFolderId: '1Xr6eNieLw0JEdLQ02GUmz7UA3oPa_SW-?hl=it'
+          filename: 'backup-vuotoperfetto.zip'
+          folderId: '1Xr6eNieLw0JEdLQ02GUmz7UA3oPa_SW-?hl=it'
