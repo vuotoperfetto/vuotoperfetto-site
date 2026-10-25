@@ -1,51 +1,44 @@
-const fs = require('fs');
-const path = require('path');
-const markdownIt = require('markdown-it')({ html: true });
+const { parse } = require('node-html-parser');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/materiale");
 
-  // Filtro per includere il contenuto renderizzato di un file Markdown
-  eleventyConfig.addFilter("markdownFile", function(filePath) {
-    const fullPath = path.join(__dirname, filePath);
-    if (!fs.existsSync(fullPath)) return '';
-    const raw = fs.readFileSync(fullPath, 'utf8');
-    // Rimuove il frontmatter (tutto ciò che sta tra i primi due ---)
-    const parts = raw.split('---');
-    const content = parts.length >= 3 ? parts.slice(2).join('---').trim() : raw;
-    return markdownIt.render(content);
-  });
+  eleventyConfig.addFilter("faqSchemaFromH4", function(html) {
+    if (!html || typeof html !== 'string') return '';
 
-  return {
-    dir: {
-      input: "src",
-      output: "_site",
-      includes: "_includes"
-    },
-    markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk"
-  };
-};
+    const root = parse(html);
+    const h4s = root.querySelectorAll('h4');
+    if (h4s.length === 0) return '';
 
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy("src/materiale");
+    const mainEntity = [];
 
-  // Filtro per generare il JSON-LD FAQPage dal frontmatter
-  eleventyConfig.addFilter("faqSchema", function(faqs) {
-    if (!faqs || !Array.isArray(faqs) || faqs.length === 0) {
-      return '';
+    for (const h4 of h4s) {
+      const question = h4.textContent.trim();
+      const answerParts = [];
+      let sibling = h4.nextElementSibling;
+
+      while (sibling && !/^H[1-6]$/.test(sibling.tagName)) {
+        const text = sibling.textContent.trim();
+        if (text) answerParts.push(text);
+        sibling = sibling.nextElementSibling;
+      }
+
+      const answer = answerParts.join(' ').trim();
+
+      if (question && answer) {
+        mainEntity.push({
+          "@type": "Question",
+          "name": question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": answer
+          }
+        });
+      }
     }
 
-    const mainEntity = faqs.map(faq => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer
-      }
-    }));
+    if (mainEntity.length === 0) return '';
 
     const schema = {
       "@context": "https://schema.org",
