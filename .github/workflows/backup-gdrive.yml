@@ -1,4 +1,4 @@
-          name: Backup settimanale su Google Drive
+name: Backup settimanale su Google Drive
 
 on:
   schedule:
