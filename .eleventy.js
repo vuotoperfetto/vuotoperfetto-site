@@ -39,13 +39,6 @@ module.exports = function(eleventyConfig) {
     }
 
     if (mainEntity.length === 0) return '';
-
-    const schema = {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": mainEntity
-    };
-
     return JSON.stringify(schema, null, 2);
   });
 
