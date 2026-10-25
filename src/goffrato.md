@@ -144,10 +144,11 @@ Dopo la conservazione di cibi secchi, formaggi o salumi, possono essere riutiliz
 
 #### ***Come scelgo la misura dei sacchetti?***
 
-#### Valuta volume e forma dell’alimento. I formati più versatili sono **20x30 cm** e **25x35 cm**, ideali per porzioni familiari di carne, pesce o verdure.
+Valuta volume e forma dell’alimento. I formati più versatili sono 20x30 cm e 25x35 cm, ideali per porzioni familiari di carne, pesce o verdure.
 
 
 
 #### ***VuotoPerfetto: il sottovuoto che conserva davvero?***
 
-Si! Con **VuotoPerfetto** hai **buste sottovuoto goffrate per alimenti** affidabili, in **multistrato PA/PE senza BPA**, con **goffratura a rombo** e spessore **100/90 micron**, per un sottovuoto efficace e una conservazione più lunga.
+Si! Con VuotoPerfetto hai buste sottovuoto goffrate per alimenti affidabili, in multistrato PA/PE senza BPA, con goffratura a rombo e spessore 100/90 micron, per un sottovuoto efficace e una conservazione più lunga.
+
