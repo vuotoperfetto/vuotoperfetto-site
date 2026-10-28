@@ -1,78 +1,67 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }} - VuotoPerfetto</title>
-  <meta name="description" content="{{ description or '' }}">
+---
+layout: layout.njk
+title: Home
+description: "VuotoPerfetto: buste e rotoli sottovuoto goffrati e lisci per la conservazione professionale degli alimenti."
+fullbleed: true
+preloadImage: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-goffrate-rombo-105micron-alimenti-1920x1080.avif
+preloadImageMobile: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-goffrate-rombo-105micron-alimenti-800x1200.avif
+heroes:
+  - id: goffrato
+    title: Goffrato
+    subtitle: "Sacchetti sottovuoto goffrati a rombo"
+    button: "Visita la pagina dei sacchetti goffrati"
+    url: /goffrato/
+    desktop: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-goffrate-rombo-105micron-alimenti-1920x1080.avif
+    mobile: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-goffrate-rombo-105micron-alimenti-800x1200.avif
+    alt: "Sacchetti e buste sottovuoto goffrate a rombo da 105 micron per alimenti"
+  - id: liscio
+    title: Liscio
+    subtitle: "Buste sottovuoto lisce per macchine a campana"
+    button: "Visita la pagina delle buste lisce"
+    url: /liscio/
+    desktop: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-lisce-90-micron-alimenti-1920x1080.avif
+    mobile: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-lisce-90-micron-alimenti-800x1200.avif
+    alt: "Buste sottovuoto lisce da 90 micron per alimenti"
+  - id: qualita
+    title: Qualità
+    subtitle: "Materiali certificati per uso alimentare"
+    button: "Visita la pagina qualità"
+    url: /qualita/
+    desktop: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-qualita-1920x1080.avif
+    mobile: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-qualita-800x1200.avif
+    alt: "Qualità dei materiali per sacchetti e buste sottovuoto alimentari"
+  - id: certificazioni
+    title: Certificazioni
+    subtitle: "Conformità e controllo qualità"
+    button: "Visita la pagina certificazioni"
+    url: /certificazioni/
+    desktop: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-certificazioni-caratteristiche-prodotti-1920x1080.avif
+    mobile: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-certificazioni-caratteristiche-prodotti-800x1200.avif
+    alt: "Certificazioni e caratteristiche dei prodotti VuotoPerfetto"
+  - id: contatti
+    title: Contatti
+    subtitle: "Informazioni e preventivi"
+    button: "Visita la pagina contatti"
+    url: /contatti/
+    desktop: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-alimenti-contattaci-1920x1080.avif
+    mobile: /materiale/img/VuotoPerfetto-sacchetti-buste-sottovuoto-alimenti-contattaci-800x1200.avif
+    alt: "Contatta VuotoPerfetto per informazioni sui sacchetti e buste sottovuoto"
+---
 
-  {% if preloadImage %}
-  <link rel="preload" as="image" href="{{ preloadImage }}" fetchpriority="high" media="(min-width: 769px)">
-  {% endif %}
-  {% if preloadImageMobile %}
-  <link rel="preload" as="image" href="{{ preloadImageMobile }}" fetchpriority="high" media="(max-width: 768px)">
-  {% endif %}
-
-  <link rel="stylesheet" href="/css/style.css">
-
-</head>
-<body class="pattern-bg">
-
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="/" class="brand-logo" aria-label="VuotoPerfetto Home">
-        <div class="logo-text">VuotoPerfetto</div>
-      </a>
-
-      <button class="mobile-toggle" aria-label="Menu" onclick="toggleMenu()">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav>
-        <ul class="nav-menu" id="navMenu">
-          <li><a href="/goffrato/" class="nav-link{% if page.url == '/goffrato/' %} active{% endif %}">Goffrato</a></li>
-          <li><a href="/liscio/" class="nav-link{% if page.url == '/liscio/' %} active{% endif %}">Liscio</a></li>
-          <li><a href="/qualita/" class="nav-link{% if page.url == '/qualita/' %} active{% endif %}">Qualità</a></li>
-          <li><a href="/contatti/" class="nav-link{% if page.url == '/contatti/' %} active{% endif %}">Contatti</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  {% if fullbleed %}
-    {{ content | safe }}
-  {% else %}
-    <main class="container" style="padding-top: 50px; padding-bottom: 60px;">
-      {{ content | safe }}
-    </main>
-  {% endif %}
-
-  <footer class="site-footer">
-    <div class="container">
-      <nav class="footer-nav">
-        <a href="/privacy/" class="footer-link">Privacy</a>
-        <a href="/termini/" class="footer-link">Termini d'uso</a>
-        <a href="/condizioni/" class="footer-link">Condizioni di vendita</a>
-        <a href="/etichetta-ambientale/" class="footer-link">Etichetta ambientale</a>
-      </nav>
-      <div class="footer-divider"></div>
-      <div class="footer-legal">
-        <strong>Vuoto Perfetto™</strong> concesso in licenza a: <strong>ELCA S.r.l.</strong> - Via Tiburtina 144 65128 – PESCARA (PE) P.IVA e C.F.: 00907300685
-      </div>
-    </div>
-  </footer>
-
-  {% set faqSchema = content | faqSchemaFromH4 %}
-  {% if faqSchema %}
-  <script type="application/ld+json">
-  {{ faqSchema | safe }}
-  </script>
-  {% endif %}
-
-  <script>
-    function toggleMenu() {
-      document.getElementById('navMenu').classList.toggle('open');
-    }
-  </script>
-</body>
-</html>
+{% for hero in heroes %}
+<section class="hero-fullbleed" id="hero-{{ hero.id }}">
+  <picture>
+    <source media="(max-width: 768px)" srcset="{{ hero.mobile }}" type="image/avif">
+    <img src="{{ hero.desktop }}" alt="{{ hero.alt }}" width="1920" height="1080"
+         {% if loop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
+  </picture>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-content">
+    <h2 class="hero-title">
+      <a href="{{ hero.url }}">{{ hero.title }}</a>
+    </h2>
+    <p class="hero-subtitle">{{ hero.subtitle }}</p>
+    <a href="{{ hero.url }}" class="hero-cta">{{ hero.button }}</a>
+  </div>
+</section>
+{% endfor %}
