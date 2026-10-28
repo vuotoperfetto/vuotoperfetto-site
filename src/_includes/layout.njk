@@ -43,7 +43,15 @@
     {{ content | safe }}
   {% else %}
     <main class="container" style="padding-top: 50px; padding-bottom: 60px;">
-      {{ content | safe }}
+      {% if image %}
+      <div class="product-hero-image">
+        <img src="{{ image }}" alt="{{ title }}">
+      </div>
+      {% endif %}
+
+      <div class="product-content">
+        {{ content | safe }}
+      </div>
     </main>
   {% endif %}
 
