@@ -129,11 +129,13 @@ body {
   border-radius: 2px;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover,
+.nav-link.active {
   color: var(--azure);
 }
 
-.nav-link:hover::after, .nav-link.active::after {
+.nav-link:hover::after,
+.nav-link.active::after {
   width: 100%;
 }
 
@@ -268,7 +270,6 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }
 
-/* Rimuove il margine del footer solo sulle pagine full-bleed (home) */
 .fullbleed-page .site-footer {
   margin-top: 0;
 }
@@ -456,11 +457,12 @@ body {
   font-size: 17px;
   line-height: 1.75;
   margin-bottom: 24px;
-  padding-left: 28px;
+  padding-left: 32px;
 }
 
 .product-content li {
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+  padding-left: 4px;
 }
 
 .product-content li:last-child {
@@ -709,7 +711,8 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .overlap-left, .overlap-right {
+  .overlap-left,
+  .overlap-right {
     margin: 0;
   }
 
@@ -727,6 +730,16 @@ body {
   .product-content ul,
   .product-content ol {
     font-size: 16px;
+  }
+
+  .product-content ul,
+  .product-content ol {
+    padding-left: 26px;
+  }
+
+  .product-content li {
+    margin-bottom: 12px;
+    padding-left: 2px;
   }
 
   .contact-form {
