@@ -5,8 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} - VuotoPerfetto</title>
   <meta name="description" content="{{ description or '' }}">
+
+  {% if preloadImage %}
+  <link rel="preload" as="image" href="{{ preloadImage }}" fetchpriority="high" media="(min-width: 769px)">
+  {% endif %}
+  {% if preloadImageMobile %}
+  <link rel="preload" as="image" href="{{ preloadImageMobile }}" fetchpriority="high" media="(max-width: 768px)">
+  {% endif %}
+
   <link rel="stylesheet" href="/css/style.css">
 
+  {# Se usi Zaraz per GA4, rimuovi questo blocco #}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9PF1PXEEYH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-9PF1PXEEYH');
+  </script>
 </head>
 <body class="pattern-bg">
 
@@ -31,17 +47,13 @@
     </div>
   </header>
 
-<main class="container" style="padding-top: 50px; padding-bottom: 60px;">
-  {% if image %}
-    <div class="product-hero-image">
-      <img src="{{ image }}" alt="{{ title }}">
-    </div>
-  {% endif %}
-
-  <div class="product-content">
+  {% if fullbleed %}
     {{ content | safe }}
-  </div>
-</main>
+  {% else %}
+    <main class="container" style="padding-top: 50px; padding-bottom: 60px;">
+      {{ content | safe }}
+    </main>
+  {% endif %}
 
   <footer class="site-footer">
     <div class="container">
@@ -57,12 +69,14 @@
       </div>
     </div>
   </footer>
-{% set faqSchema = content | faqSchemaFromH4 %}
-{% if faqSchema %}
-<script type="application/ld+json">
-{{ faqSchema | safe }}
-</script>
-{% endif %}
+
+  {% set faqSchema = content | faqSchemaFromH4 %}
+  {% if faqSchema %}
+  <script type="application/ld+json">
+  {{ faqSchema | safe }}
+  </script>
+  {% endif %}
+
   <script>
     function toggleMenu() {
       document.getElementById('navMenu').classList.toggle('open');
